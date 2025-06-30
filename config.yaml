@@ -5,69 +5,144 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 节点日期：06-28, server: 103.160.204.26, port: 2053, type: trojan, password: d6b8011a-c725-435a-9fec-bf6d3530392c, sni: vle.amclubdns.dpdns.org, network: ws, ws-opts: {path: /, headers: {Host: vle.amclubdns.dpdns.org}}}
-  - {name: 中国【机场推荐：https://a0a.xyz/】2, server: 36.156.184.33, port: 21603, type: trojan, password: 2b1ed981-6547-4094-998b-06a3323d6f6c, sni: k61.tudou211.com}
-  - {name: 中国【机场推荐：https://a0a.xyz/】3, server: 120.232.153.41, port: 43491, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 中国【机场推荐：https://a0a.xyz/】4, server: dozo01.flztjc.top, port: 8313, type: trojan, password: 2c605663-b89a-5734-a9d6-97d4743d72cf, sni: hk-13-568.flztjc.net}
-  - {name: 日本【机场推荐：https://a0a.xyz/】5, server: arxfw2b78fi2q9hzylhn.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Nk9asglDzHzjktVzTkvhaA}
-  - {name: 俄罗斯【机场推荐：https://a0a.xyz/】6, server: tr.vpnsparta.pro, port: 57456, type: ss, cipher: chacha20-ietf-poly1305, password: c40641c1f89e7acb}
-  - {name: 美国【机场推荐：https://a0a.xyz/】7, server: pr.fastsoonlink.com, port: 40030, type: ss, cipher: chacha20-ietf-poly1305, password: 7905a32b-012c-4711-89e2-73b6713eca75}
-  - {name: 德国【机场推荐：https://a0a.xyz/】8, server: 132.145.232.171, port: 443, type: vmess, uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /linkws, headers: {Host: beyonddsz.cfd}}}
-  - {name: 中国【机场推荐：https://a0a.xyz/】9, server: 183.240.187.198, port: 34664, type: ss, cipher: 2022-blake3-aes-128-gcm, password: 12xGRmcEy3TVETzE47MreA==}
-  - {name: 中国【机场推荐：https://a0a.xyz/】10, server: 111.26.109.79, port: 30840, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /index, headers: {Host: api100-core-quic-lf.amemv.com}}}
-  - {name: 中国【机场推荐：https://a0a.xyz/】11, server: v40.heduian.link, port: 30840, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /index, headers: {Host: api100-core-quic-lf.amemv.com}}}
-  - {name: 荷兰【机场推荐：https://a0a.xyz/】12, server: 45.147.201.231, port: 23109, type: vmess, uuid: e263fe17-eb9f-4bd3-826d-e6a017667173, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 中国【机场推荐：https://a0a.xyz/】13, server: 120.233.128.98, port: 30015, type: ss, cipher: aes-256-gcm, password: dwz1GtF7}
-  - {name: 中国【机场推荐：https://a0a.xyz/】14, server: xd-js.timiwc.com, port: 59599, type: trojan, password: 2b1ed981-6547-4094-998b-06a3323d6f6c, sni: k62.tudou211.com}
-  - {name: 中国【机场推荐：https://a0a.xyz/】15, server: 120.232.153.41, port: 49597, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
-  - {name: 日本【机场推荐：https://a0a.xyz/】16, server: 156.238.18.220, port: 8443, type: trojan, password: d6b8011a-c725-435a-9fec-bf6d3530392c, sni: vle.amclubdns.dpdns.org, network: ws, ws-opts: {path: /, headers: {Host: vle.amclubdns.dpdns.org}}}
-  - {name: 中国【机场推荐：https://a0a.xyz/】17, server: xd-js.timiwc.com, port: 21603, type: trojan, password: 2b1ed981-6547-4094-998b-06a3323d6f6c, sni: k61.tudou211.com}
+  - {name: 节点日期：06-30, server: 120.233.128.98, port: 30015, type: ss, cipher: aes-256-gcm, password: dwz1GtF7}
+  - {name: 美国【机场推荐：https://a0a.xyz/】41, server: ffFffFFFFfFF.222769.xYZ, port: 80, type: vmess, uuid: 2e65577e-8fdb-4bb1-a495-96f3122099a7, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /f6taOMcOSZb9TPR, headers: {Host: ffffffffffff.222769.xyz}}}
+  - {name: 中国【机场推荐：https://a0a.xyz/】17, server: fgewgew.20210420.xyz, port: 20741, type: vmess, uuid: 042b0562-678a-3f83-ac35-96b40d20eb3f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /A6oo3nYC, headers: {Host: fgewgew.20210420.xyz}}}
+  - {name: 美国【机场推荐：https://a0a.xyz/】12, server: dddfFFvvBnhJU.931.pP.uA, port: 443, type: vmess, uuid: a4e8ec0a-75d0-4fc5-837a-4973ed3a9d3e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /14Fziqw1hYgCXNutkS5H, headers: {Host: dddfffvvbnhju.931.pp.ua}}}
+  - {name: 美国【机场推荐：https://a0a.xyz/】48, server: kkIuUytr.iRaN.pp.ua, port: 443, type: vmess, uuid: e9b4bdbd-cc5b-4a90-9616-ea0f1092ec7c, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /VgtsOrriMf1sdep5KKSues, headers: {Host: kkiuuytr.iran.pp.ua}}}
+  - {name: 中国【机场推荐：https://a0a.xyz/】44, server: ggxd.cy-0823.top, port: 20714, type: vmess, uuid: 042b0562-678a-3f83-ac35-96b40d20eb3f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /ma5n31, headers: {Host: ggxd.cy-0823.top}}}
+  - {name: 中国【机场推荐：https://a0a.xyz/】45, server: ti3hyra4.slashdevslashnetslashtun.net, port: 18009, type: ss, cipher: aes-256-gcm, password: MNOORIVKRQF4KGJP}
+  - {name: 中国【机场推荐：https://a0a.xyz/】4, server: fiwejniavzoj.xn--fiqs8sjz2bull.com, port: 19490, type: vmess, uuid: fc7b534b-9188-4d81-b804-55b4eb91cd6e, alterId: 0, cipher: auto, tls: false}
+  - {name: 中国【机场推荐：https://a0a.xyz/】8, server: xd-js.timiwc.com, port: 59599, type: trojan, password: 2b1ed981-6547-4094-998b-06a3323d6f6c, sni: k62.tudou211.com}
+  - {name: 中国【机场推荐：https://a0a.xyz/】6, server: v40.heduian.link, port: 30840, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /index, headers: {Host: api100-core-quic-lf.amemv.com}}}
+  - {name: 中国【机场推荐：https://a0a.xyz/】15, server: 183.240.187.198, port: 34664, type: ss, cipher: 2022-blake3-aes-128-gcm, password: 12xGRmcEy3TVETzE47MreA==}
+  - {name: 美国【机场推荐：https://a0a.xyz/】38, server: d1.cloudtaste.xyz, port: 27619, type: ss, cipher: aes-128-gcm, password: c4d45b0e-a996-435c-82bc-c5cbf3872247}
+  - {name: 中国【机场推荐：https://a0a.xyz/】7, server: usa04.20210420.xyz, port: 20705, type: trojan, password: 042b0562-678a-3f83-ac35-96b40d20eb3f, sni: usa04-ssl.20210420.xyz}
+  - {name: 美国【机场推荐：https://a0a.xyz/】32, server: d1.cloudtaste.xyz, port: 38471, type: ss, cipher: aes-128-gcm, password: 195dcfef-1469-4731-b53d-e5c03ce9aa77}
+  - {name: 中国【机场推荐：https://a0a.xyz/】11, server: xd-js.timiwc.com, port: 21332, type: trojan, password: 2b1ed981-6547-4094-998b-06a3323d6f6c, sni: k65.tudou211.com}
+  - {name: 美国【机场推荐：https://a0a.xyz/】16, server: ffFFFfffFFFfG.222560.xyZ, port: 443, type: vmess, uuid: ce921385-2b31-45fe-84c5-1843e8ae845b, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /VaaSEfNLHdW3I98dxLkez, headers: {Host: ffFFFfffFFFfG.222560.xyZ}}}
+  - {name: 中国【机场推荐：https://a0a.xyz/】24, server: xjpa1.20210420.xyz, port: 25511, type: vmess, uuid: 042b0562-678a-3f83-ac35-96b40d20eb3f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /2Pd5dpNK, headers: {Host: xjpa1.20210420.xyz}}}
+  - {name: 中国【机场推荐：https://a0a.xyz/】28, server: us01.cy-0823.top, port: 20703, type: vmess, uuid: 042b0562-678a-3f83-ac35-96b40d20eb3f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /hrg35hrt, headers: {Host: us01.cy-0823.top}}}
+  - {name: 中国【机场推荐：https://a0a.xyz/】30, server: alqa01.cy-0823.top, port: 20711, type: trojan, password: 042b0562-678a-3f83-ac35-96b40d20eb3f, sni: alqa01-ssl.cy-0823.top}
+  - {name: 日本【机场推荐：https://a0a.xyz/】25, server: arxfw2b78fi2q9hzylhn.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Nk9asglDzHzjktVzTkvhaA}
+  - {name: 中国【机场推荐：https://a0a.xyz/】14, server: 120.198.71.217, port: 58882, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 中国【机场推荐：https://a0a.xyz/】42, server: 83242d49-sy41s0-szh3gf-ggww.cm5.cnkuaishou.com, port: 21233, type: trojan, password: bcc58e88-e147-11ec-b286-f23c91cfbbc9, sni: 83242d49-sy41s0-szh3gf-ggww.cm5.cnkuaishou.com}
+  - {name: 中国【机场推荐：https://a0a.xyz/】22, server: us03.cy-0823.top, port: 20716, type: vmess, uuid: 042b0562-678a-3f83-ac35-96b40d20eb3f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /efegfd23y, headers: {Host: us03.cy-0823.top}}}
+  - {name: 中国【机场推荐：https://a0a.xyz/】21, server: 3prhDUoP.cy-0823.top, port: 25505, type: vmess, uuid: 042b0562-678a-3f83-ac35-96b40d20eb3f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /dgfegf3525, headers: {Host: 3prhDUoP.cy-0823.top}}}
+  - {name: 中国【机场推荐：https://a0a.xyz/】18, server: dozo01.flztjc.top, port: 8313, type: trojan, password: 2c605663-b89a-5734-a9d6-97d4743d72cf, sni: hk-13-568.flztjc.net}
+  - {name: 中国【机场推荐：https://a0a.xyz/】35, server: ti3hyra4.slashdevslashnetslashtun.net, port: 18013, type: ss, cipher: aes-256-gcm, password: WHTSN6UOO84T3RVI}
+  - {name: 中国【机场推荐：https://a0a.xyz/】20, server: yda1.abcd24.cyou, port: 20735, type: vmess, uuid: 042b0562-678a-3f83-ac35-96b40d20eb3f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /dgfegf5217, headers: {Host: yda1.abcd24.cyou}}}
+  - {name: 中国【机场推荐：https://a0a.xyz/】34, server: bx.20210420.xyz, port: 20708, type: vmess, uuid: 042b0562-678a-3f83-ac35-96b40d20eb3f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /3ou5MfA1, headers: {Host: bx.20210420.xyz}}}
+  - {name: 中国【机场推荐：https://a0a.xyz/】13, server: hka4.20210420.xyz, port: 25512, type: vmess, uuid: 042b0562-678a-3f83-ac35-96b40d20eb3f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /RwM6rCBM, headers: {Host: hka4.20210420.xyz}}}
+  - {name: 中国【机场推荐：https://a0a.xyz/】33, server: xjp01.cy-0823.top, port: 20713, type: vmess, uuid: 042b0562-678a-3f83-ac35-96b40d20eb3f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /fegew43g, headers: {Host: xjp01.cy-0823.top}}}
+  - {name: 中国【机场推荐：https://a0a.xyz/】43, server: 120.198.71.217, port: 46759, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 中国【机场推荐：https://a0a.xyz/】29, server: ti3hyra4.slashdevslashnetslashtun.net, port: 18008, type: ss, cipher: aes-256-gcm, password: QZVFNGZY8253LZYP}
+  - {name: 美国【机场推荐：https://a0a.xyz/】1, server: GgGgGGgGggggGg.222769.XYZ, port: 80, type: vmess, uuid: 2e65577e-8fdb-4bb1-a495-96f3122099a7, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /f6taOMcOSZb9TPR, headers: {Host: gggggggggggggg.222769.xyz}}}
+  - {name: 美国【机场推荐：https://a0a.xyz/】40, server: bBbbbbbBb.222769.XYZ, port: 80, type: vmess, uuid: 2e65577e-8fdb-4bb1-a495-96f3122099a7, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /f6taOMcOSZb9TPR, headers: {Host: bbbbbbbbb.222769.xyz}}}
+  - {name: 中国【机场推荐：https://a0a.xyz/】2, server: bwgweg.20210420.xyz, port: 25507, type: vmess, uuid: 042b0562-678a-3f83-ac35-96b40d20eb3f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /e2ZCV8Hm, headers: {Host: bwgweg.20210420.xyz}}}
+  - {name: 中国【机场推荐：https://a0a.xyz/】3, server: 111.26.109.79, port: 30840, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /index, headers: {Host: api100-core-quic-lf.amemv.com}}}
+  - {name: 中国【机场推荐：https://a0a.xyz/】26, server: 120.198.71.218, port: 32915, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 美国【机场推荐：https://a0a.xyz/】46, server: a.1314lovelydog.top, port: 443, type: vmess, uuid: 29d9535b-f25b-4936-e524-7368f67f2d7d, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /abc, headers: {Host: a.1314lovelydog.top}}}
+  - {name: 中国【机场推荐：https://a0a.xyz/】23, server: adly.20210420.xyz, port: 25558, type: trojan, password: 042b0562-678a-3f83-ac35-96b40d20eb3f, sni: adly-ssl.20210420.xyz}
+  - {name: 中国【机场推荐：https://a0a.xyz/】5, server: yn.20210420.xyz, port: 20717, type: trojan, password: 042b0562-678a-3f83-ac35-96b40d20eb3f, sni: ynssl.20210420.xyz}
+  - {name: 美国【机场推荐：https://a0a.xyz/】27, server: d1.cloudtaste.xyz, port: 52743, type: ss, cipher: aes-128-gcm, password: 195dcfef-1469-4731-b53d-e5c03ce9aa77}
+  - {name: 美国【机场推荐：https://a0a.xyz/】36, server: NnnNNNnNnNNNNN.222769.xYZ, port: 80, type: vmess, uuid: 2e65577e-8fdb-4bb1-a495-96f3122099a7, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /f6taOMcOSZb9TPR, headers: {Host: nnnnnnnnnnnnnn.222769.xyz}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 节点日期：06-28
+      - 节点日期：06-30
+      - 美国【机场推荐：https://a0a.xyz/】41
+      - 中国【机场推荐：https://a0a.xyz/】17
+      - 美国【机场推荐：https://a0a.xyz/】12
+      - 美国【机场推荐：https://a0a.xyz/】48
+      - 中国【机场推荐：https://a0a.xyz/】44
+      - 中国【机场推荐：https://a0a.xyz/】45
+      - 中国【机场推荐：https://a0a.xyz/】4
+      - 中国【机场推荐：https://a0a.xyz/】8
+      - 中国【机场推荐：https://a0a.xyz/】6
+      - 中国【机场推荐：https://a0a.xyz/】15
+      - 美国【机场推荐：https://a0a.xyz/】38
+      - 中国【机场推荐：https://a0a.xyz/】7
+      - 美国【机场推荐：https://a0a.xyz/】32
+      - 中国【机场推荐：https://a0a.xyz/】11
+      - 美国【机场推荐：https://a0a.xyz/】16
+      - 中国【机场推荐：https://a0a.xyz/】24
+      - 中国【机场推荐：https://a0a.xyz/】28
+      - 中国【机场推荐：https://a0a.xyz/】30
+      - 日本【机场推荐：https://a0a.xyz/】25
+      - 中国【机场推荐：https://a0a.xyz/】14
+      - 中国【机场推荐：https://a0a.xyz/】42
+      - 中国【机场推荐：https://a0a.xyz/】22
+      - 中国【机场推荐：https://a0a.xyz/】21
+      - 中国【机场推荐：https://a0a.xyz/】18
+      - 中国【机场推荐：https://a0a.xyz/】35
+      - 中国【机场推荐：https://a0a.xyz/】20
+      - 中国【机场推荐：https://a0a.xyz/】34
+      - 中国【机场推荐：https://a0a.xyz/】13
+      - 中国【机场推荐：https://a0a.xyz/】33
+      - 中国【机场推荐：https://a0a.xyz/】43
+      - 中国【机场推荐：https://a0a.xyz/】29
+      - 美国【机场推荐：https://a0a.xyz/】1
+      - 美国【机场推荐：https://a0a.xyz/】40
       - 中国【机场推荐：https://a0a.xyz/】2
       - 中国【机场推荐：https://a0a.xyz/】3
-      - 中国【机场推荐：https://a0a.xyz/】4
-      - 日本【机场推荐：https://a0a.xyz/】5
-      - 俄罗斯【机场推荐：https://a0a.xyz/】6
-      - 美国【机场推荐：https://a0a.xyz/】7
-      - 德国【机场推荐：https://a0a.xyz/】8
-      - 中国【机场推荐：https://a0a.xyz/】9
-      - 中国【机场推荐：https://a0a.xyz/】10
-      - 中国【机场推荐：https://a0a.xyz/】11
-      - 荷兰【机场推荐：https://a0a.xyz/】12
-      - 中国【机场推荐：https://a0a.xyz/】13
-      - 中国【机场推荐：https://a0a.xyz/】14
-      - 中国【机场推荐：https://a0a.xyz/】15
-      - 日本【机场推荐：https://a0a.xyz/】16
-      - 中国【机场推荐：https://a0a.xyz/】17
+      - 中国【机场推荐：https://a0a.xyz/】26
+      - 美国【机场推荐：https://a0a.xyz/】46
+      - 中国【机场推荐：https://a0a.xyz/】23
+      - 中国【机场推荐：https://a0a.xyz/】5
+      - 美国【机场推荐：https://a0a.xyz/】27
+      - 美国【机场推荐：https://a0a.xyz/】36
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 节点日期：06-28
+      - 节点日期：06-30
+      - 美国【机场推荐：https://a0a.xyz/】41
+      - 中国【机场推荐：https://a0a.xyz/】17
+      - 美国【机场推荐：https://a0a.xyz/】12
+      - 美国【机场推荐：https://a0a.xyz/】48
+      - 中国【机场推荐：https://a0a.xyz/】44
+      - 中国【机场推荐：https://a0a.xyz/】45
+      - 中国【机场推荐：https://a0a.xyz/】4
+      - 中国【机场推荐：https://a0a.xyz/】8
+      - 中国【机场推荐：https://a0a.xyz/】6
+      - 中国【机场推荐：https://a0a.xyz/】15
+      - 美国【机场推荐：https://a0a.xyz/】38
+      - 中国【机场推荐：https://a0a.xyz/】7
+      - 美国【机场推荐：https://a0a.xyz/】32
+      - 中国【机场推荐：https://a0a.xyz/】11
+      - 美国【机场推荐：https://a0a.xyz/】16
+      - 中国【机场推荐：https://a0a.xyz/】24
+      - 中国【机场推荐：https://a0a.xyz/】28
+      - 中国【机场推荐：https://a0a.xyz/】30
+      - 日本【机场推荐：https://a0a.xyz/】25
+      - 中国【机场推荐：https://a0a.xyz/】14
+      - 中国【机场推荐：https://a0a.xyz/】42
+      - 中国【机场推荐：https://a0a.xyz/】22
+      - 中国【机场推荐：https://a0a.xyz/】21
+      - 中国【机场推荐：https://a0a.xyz/】18
+      - 中国【机场推荐：https://a0a.xyz/】35
+      - 中国【机场推荐：https://a0a.xyz/】20
+      - 中国【机场推荐：https://a0a.xyz/】34
+      - 中国【机场推荐：https://a0a.xyz/】13
+      - 中国【机场推荐：https://a0a.xyz/】33
+      - 中国【机场推荐：https://a0a.xyz/】43
+      - 中国【机场推荐：https://a0a.xyz/】29
+      - 美国【机场推荐：https://a0a.xyz/】1
+      - 美国【机场推荐：https://a0a.xyz/】40
       - 中国【机场推荐：https://a0a.xyz/】2
       - 中国【机场推荐：https://a0a.xyz/】3
-      - 中国【机场推荐：https://a0a.xyz/】4
-      - 日本【机场推荐：https://a0a.xyz/】5
-      - 俄罗斯【机场推荐：https://a0a.xyz/】6
-      - 美国【机场推荐：https://a0a.xyz/】7
-      - 德国【机场推荐：https://a0a.xyz/】8
-      - 中国【机场推荐：https://a0a.xyz/】9
-      - 中国【机场推荐：https://a0a.xyz/】10
-      - 中国【机场推荐：https://a0a.xyz/】11
-      - 荷兰【机场推荐：https://a0a.xyz/】12
-      - 中国【机场推荐：https://a0a.xyz/】13
-      - 中国【机场推荐：https://a0a.xyz/】14
-      - 中国【机场推荐：https://a0a.xyz/】15
-      - 日本【机场推荐：https://a0a.xyz/】16
-      - 中国【机场推荐：https://a0a.xyz/】17
+      - 中国【机场推荐：https://a0a.xyz/】26
+      - 美国【机场推荐：https://a0a.xyz/】46
+      - 中国【机场推荐：https://a0a.xyz/】23
+      - 中国【机场推荐：https://a0a.xyz/】5
+      - 美国【机场推荐：https://a0a.xyz/】27
+      - 美国【机场推荐：https://a0a.xyz/】36
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -85,23 +160,48 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 节点日期：06-28
+      - 节点日期：06-30
+      - 美国【机场推荐：https://a0a.xyz/】41
+      - 中国【机场推荐：https://a0a.xyz/】17
+      - 美国【机场推荐：https://a0a.xyz/】12
+      - 美国【机场推荐：https://a0a.xyz/】48
+      - 中国【机场推荐：https://a0a.xyz/】44
+      - 中国【机场推荐：https://a0a.xyz/】45
+      - 中国【机场推荐：https://a0a.xyz/】4
+      - 中国【机场推荐：https://a0a.xyz/】8
+      - 中国【机场推荐：https://a0a.xyz/】6
+      - 中国【机场推荐：https://a0a.xyz/】15
+      - 美国【机场推荐：https://a0a.xyz/】38
+      - 中国【机场推荐：https://a0a.xyz/】7
+      - 美国【机场推荐：https://a0a.xyz/】32
+      - 中国【机场推荐：https://a0a.xyz/】11
+      - 美国【机场推荐：https://a0a.xyz/】16
+      - 中国【机场推荐：https://a0a.xyz/】24
+      - 中国【机场推荐：https://a0a.xyz/】28
+      - 中国【机场推荐：https://a0a.xyz/】30
+      - 日本【机场推荐：https://a0a.xyz/】25
+      - 中国【机场推荐：https://a0a.xyz/】14
+      - 中国【机场推荐：https://a0a.xyz/】42
+      - 中国【机场推荐：https://a0a.xyz/】22
+      - 中国【机场推荐：https://a0a.xyz/】21
+      - 中国【机场推荐：https://a0a.xyz/】18
+      - 中国【机场推荐：https://a0a.xyz/】35
+      - 中国【机场推荐：https://a0a.xyz/】20
+      - 中国【机场推荐：https://a0a.xyz/】34
+      - 中国【机场推荐：https://a0a.xyz/】13
+      - 中国【机场推荐：https://a0a.xyz/】33
+      - 中国【机场推荐：https://a0a.xyz/】43
+      - 中国【机场推荐：https://a0a.xyz/】29
+      - 美国【机场推荐：https://a0a.xyz/】1
+      - 美国【机场推荐：https://a0a.xyz/】40
       - 中国【机场推荐：https://a0a.xyz/】2
       - 中国【机场推荐：https://a0a.xyz/】3
-      - 中国【机场推荐：https://a0a.xyz/】4
-      - 日本【机场推荐：https://a0a.xyz/】5
-      - 俄罗斯【机场推荐：https://a0a.xyz/】6
-      - 美国【机场推荐：https://a0a.xyz/】7
-      - 德国【机场推荐：https://a0a.xyz/】8
-      - 中国【机场推荐：https://a0a.xyz/】9
-      - 中国【机场推荐：https://a0a.xyz/】10
-      - 中国【机场推荐：https://a0a.xyz/】11
-      - 荷兰【机场推荐：https://a0a.xyz/】12
-      - 中国【机场推荐：https://a0a.xyz/】13
-      - 中国【机场推荐：https://a0a.xyz/】14
-      - 中国【机场推荐：https://a0a.xyz/】15
-      - 日本【机场推荐：https://a0a.xyz/】16
-      - 中国【机场推荐：https://a0a.xyz/】17
+      - 中国【机场推荐：https://a0a.xyz/】26
+      - 美国【机场推荐：https://a0a.xyz/】46
+      - 中国【机场推荐：https://a0a.xyz/】23
+      - 中国【机场推荐：https://a0a.xyz/】5
+      - 美国【机场推荐：https://a0a.xyz/】27
+      - 美国【机场推荐：https://a0a.xyz/】36
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
