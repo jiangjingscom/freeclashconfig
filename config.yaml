@@ -5,321 +5,78 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇯🇵 节点日期：11-21, server: wangcai246.000444.cn, port: 8880, type: vless, uuid: 7890ce31-9a25-4fd4-90e7-80e5823ff510, tls: false, tfo: false, skip-cert-verify: false, servername: frejd.11258.workers.dev, network: ws, ws-opts: {path: "/Telegram🇨🇳@WangCai2/?ed=2560", headers: {Host: frejd.11258.workers.dev}}}
-  - {name: 【机场推荐：https://a0a.xyz/】2, server: wangcai154.000444.cn, port: 8880, type: vless, uuid: 7890ce31-9a25-4fd4-90e7-80e5823ff510, tls: false, tfo: false, skip-cert-verify: false, servername: frejd.11258.workers.dev, network: ws, ws-opts: {path: "/Telegram🇨🇳 @WangCai2 /?ed=2560", headers: {Host: frejd.11258.workers.dev}}}
-  - {name: 【机场推荐：https://a0a.xyz/】3, server: wangcai132.000444.cn, port: 8880, type: vless, uuid: 7890ce31-9a25-4fd4-90e7-80e5823ff510, tls: false, tfo: false, skip-cert-verify: false, servername: frejd.11258.workers.dev, network: ws, ws-opts: {path: "/Telegram🇨🇳 @WangCai2 /?ed=2560", headers: {Host: frejd.11258.workers.dev}}}
-  - {name: 【机场推荐：https://a0a.xyz/】4, server: 185.113.10.197, port: 49246, type: vless, uuid: e016e15a-7e21-4d9a-8951-f1112c850f28, tls: false, tfo: false, skip-cert-verify: false, network: tcp}
-  - {name: 【机场推荐：https://a0a.xyz/】5, server: 34.81.140.124, port: 10240, type: vless, uuid: e258977b-e413-4718-a3af-02d75492c349, tls: true, tfo: false, skip-cert-verify: false, servername: ww2.x-aniu-hk.netlib.re, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: ww2.x-aniu-hk.netlib.re}}}
-  - {name: 【机场推荐：https://a0a.xyz/】6, server: ddDFHhj.922922.Shop, port: 80, type: vmess, uuid: bce0c7cb-08d1-46a7-b77b-7bff8b46252f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /RkUUbqhA9GJZBROjL3Q5vTymr, headers: {Host: ddDFHhj.922922.Shop}}}
-  - {name: 【机场推荐：https://a0a.xyz/】7, server: 45.66.217.145, port: 50010, type: vless, uuid: e258977b-e413-4718-a3af-02d75492c349, tls: true, tfo: false, skip-cert-verify: false, servername: ww2.x-aniu-sg.netlib.re, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: ww2.x-aniu-sg.netlib.re}}}
-  - {name: 【机场推荐：https://a0a.xyz/】8, server: 185.156.110.92, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: gXOXk2FJwsz9P6nXIICuDNOqF9gWX1dn}
-  - {name: 【机场推荐：https://a0a.xyz/】9, server: 213.159.66.206, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: pl2XtR0pzwknQOGwewbwXtPYDw1zn9Vu}
-  - {name: 【机场推荐：https://a0a.xyz/】10, server: wangcai138.000444.cn, port: 8880, type: vless, uuid: 7890ce31-9a25-4fd4-90e7-80e5823ff510, tls: false, tfo: false, skip-cert-verify: false, servername: frejd.11258.workers.dev, network: ws, ws-opts: {path: "/Telegram🇨🇳 @WangCai2 /?ed=2560", headers: {Host: frejd.11258.workers.dev}}}
-  - {name: 【机场推荐：https://a0a.xyz/】11, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048"}}
-  - {name: 【机场推荐：https://a0a.xyz/】12, server: dddfhhj.922922.shop, port: 80, type: vmess, uuid: bce0c7cb-08d1-46a7-b77b-7bff8b46252f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /RkUUbqhA9GJZBROjL3Q5vTymr, headers: {Host: ddDFHhj.922922.Shop}}}
-  - {name: 【机场推荐：https://a0a.xyz/】13, server: 35.241.103.179, port: 443, type: vless, uuid: e258977b-e413-4718-a3af-02d75492c349, tls: true, tfo: false, skip-cert-verify: false, servername: ww1.x-aniu-hk.netlib.re, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: ww1.x-aniu-hk.netlib.re}}}
-  - {name: 【机场推荐：https://a0a.xyz/】14, server: wangcai224.000444.cn, port: 8880, type: vless, uuid: 7890ce31-9a25-4fd4-90e7-80e5823ff510, tls: false, tfo: false, skip-cert-verify: false, servername: frejd.11258.workers.dev, network: ws, ws-opts: {path: "/Telegram🇨🇳 @WangCai2 /?ed=2560", headers: {Host: frejd.11258.workers.dev}}}
-  - {name: 【机场推荐：https://a0a.xyz/】15, server: 81.161.98.228, port: 1443, type: vless, uuid: 00f02ab2-6f2d-449f-a089-d182a2fac59a, tls: true, tfo: false, skip-cert-verify: false, servername: cdn.filterai.ru, network: ws, ws-opts: {path: /websocketpl, headers: {Host: cdn.filterai.ru}}}
-  - {name: 【机场推荐：https://a0a.xyz/】16, server: 217.30.10.31, port: 8443, type: trojan, password: 422d402c-58f1-4473-abeb-fe6e69dc97ed, sni: joss.gpj1.web.id, skip-cert-verify: false, network: ws, ws-opts: {path: /Free-VPN-CF-Geo-Project/217.30.10.31=8443, headers: {Host: joss.gpj1.web.id}}}
-  - {name: 【机场推荐：https://a0a.xyz/】17, server: support.zoom.us, port: 8080, type: vless, uuid: 8e2b79fb-e184-4fb7-965f-39a095a6a151, tls: false, tfo: false, skip-cert-verify: false, servername: zorox-net.senu-zer.online, network: ws, ws-opts: {path: /, headers: {Host: zorox-net.senu-zer.online}}}
-  - {name: 【机场推荐：https://a0a.xyz/】18, server: liubu9.singdns.com, port: 17459, type: ss, cipher: aes-128-gcm, password: 57bc0c04-8184-48f5-906b-897d095ed445}
-  - {name: 【机场推荐：https://a0a.xyz/】19, server: DddFfRtY6.922922.shop, port: 80, type: vmess, uuid: bce0c7cb-08d1-46a7-b77b-7bff8b46252f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /RkUUbqhA9GJZBROjL3Q5vTymr, headers: {Host: DddFfRtY6.922922.shop}}}
-  - {name: 【机场推荐：https://a0a.xyz/】20, server: sy4.620720.xyz, port: 443, type: vmess, uuid: 516d8a7a-3f0b-41d3-bad0-246116381516, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: sy4.620720.xyz}}}
-  - {name: 【机场推荐：https://a0a.xyz/】21, server: 46.3.44.78, port: 80, type: vless, uuid: e258977b-e413-4718-a3af-02d75492c349, tls: true, tfo: false, skip-cert-verify: false, servername: ww2.x-aniu-sg.netlib.re, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: ww2.x-aniu-sg.netlib.re}}}
-  - {name: 【机场推荐：https://a0a.xyz/】22, server: 51.15.210.1, port: 443, type: trojan, password: e6f0e8b0-3dc5-4d53-a23a-86c02d5ba098, sni: joss.gpj1.web.id, skip-cert-verify: false, network: ws, ws-opts: {path: /Free-VPN-CF-Geo-Project/51.15.210.1=443, headers: {Host: joss.gpj1.web.id}}}
-  - {name: 【机场推荐：https://a0a.xyz/】23, server: 178.239.123.216, port: 24443, type: vless, uuid: aa7f42cc-616f-4550-9a87-4b85bb409121, tls: true, tfo: false, skip-cert-verify: false, servername: vless3.datatestvless.click, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: vless3.datatestvless.click}}}
-  - {name: 【机场推荐：https://a0a.xyz/】24, server: 149.104.31.176, port: 443, type: vless, uuid: e258977b-e413-4718-a3af-02d75492c349, tls: true, tfo: false, skip-cert-verify: false, servername: ww1.x-aniu-hk.netlib.re, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: ww1.x-aniu-hk.netlib.re}}}
-  - {name: 【机场推荐：https://a0a.xyz/】25, server: 47.238.120.134, port: 55555, type: vless, uuid: e258977b-e413-4718-a3af-02d75492c349, tls: true, tfo: false, skip-cert-verify: false, servername: ww2.x-aniu-jp.netlib.re, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: ww2.x-aniu-jp.netlib.re}}}
-  - {name: 【机场推荐：https://a0a.xyz/】26, server: 83.229.126.199, port: 443, type: vless, uuid: e258977b-e413-4718-a3af-02d75492c349, tls: true, tfo: false, skip-cert-verify: false, servername: ww1.x-aniu-hk.netlib.re, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: ww1.x-aniu-hk.netlib.re}}}
-  - {name: 【机场推荐：https://a0a.xyz/】27, server: 103.30.78.148, port: 666, type: vless, uuid: e258977b-e413-4718-a3af-02d75492c349, tls: true, tfo: false, skip-cert-verify: false, servername: ww2.x-aniu-sg.netlib.re, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: ww2.x-aniu-sg.netlib.re}}}
-  - {name: 【机场推荐：https://a0a.xyz/】28, server: 101.32.72.125, port: 443, type: vless, uuid: e258977b-e413-4718-a3af-02d75492c349, tls: true, tfo: false, skip-cert-verify: false, servername: ww2.x-aniu-sg.netlib.re, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: ww2.x-aniu-sg.netlib.re}}}
-  - {name: 【机场推荐：https://a0a.xyz/】29, server: wangcai.singdns.com, port: 21712, type: ss, cipher: aes-128-gcm, password: 79ad2852-eb76-4c3e-ba4d-3668ee5ece74}
-  - {name: 【机场推荐：https://a0a.xyz/】30, server: 45.14.245.2, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 17ZDORWIliQHuO6WRGHChXYMzdRtAYVP}
-  - {name: 【机场推荐：https://a0a.xyz/】31, server: 4bb6-B667-f88608d19Fd5.664.QZz.iO, port: 80, type: vmess, uuid: 0507fbcd-b983-43a7-8e1d-2c561960ad4f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /pyyY4ZVTyJV3vr9noOhn, headers: {Host: 4Bb6-B667-f88608D19Fd5.664.QzZ.Io}}}
-  - {name: 【机场推荐：https://a0a.xyz/】32, server: 185.184.223.55, port: 443, type: vless, uuid: e258977b-e413-4718-a3af-02d75492c349, tls: true, tfo: false, skip-cert-verify: false, servername: ww1.x-aniu-hk.netlib.re, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: ww1.x-aniu-hk.netlib.re}}}
-  - {name: 【机场推荐：https://a0a.xyz/】33, server: 4bb6-b667-f88608d19fd5.664.qzz.io, port: 80, type: vmess, uuid: 0507fbcd-b983-43a7-8e1d-2c561960ad4f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /pyyY4ZVTyJV3vr9noOhn, headers: {Host: 4Bb6-B667-f88608D19Fd5.664.QzZ.Io}}}
-  - {name: 【机场推荐：https://a0a.xyz/】34, server: 216.133.148.215, port: 36987, type: vless, uuid: 0f4f3a75-ae36-4992-8cb5-6638f45afcb2, tls: false, tfo: false, skip-cert-verify: false, network: tcp}
-  - {name: 【机场推荐：https://a0a.xyz/】35, server: 45.87.175.197, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ}
-  - {name: 【机场推荐：https://a0a.xyz/】36, server: switcher-nick-croquet.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 9tqhMdIrTkgQ46PvhyAtMH}
-  - {name: 【机场推荐：https://a0a.xyz/】37, server: 47.79.89.145, port: 57787, type: vless, uuid: e258977b-e413-4718-a3af-02d75492c349, tls: true, tfo: false, skip-cert-verify: false, servername: ww2.x-aniu-hk.netlib.re, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: ww2.x-aniu-hk.netlib.re}}}
-  - {name: 【机场推荐：https://a0a.xyz/】38, server: 185.200.66.188, port: 443, type: vless, uuid: e258977b-e413-4718-a3af-02d75492c349, tls: true, tfo: false, skip-cert-verify: false, servername: ww2.x-aniu-hk.netlib.re, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: ww2.x-aniu-hk.netlib.re}}}
+  - {name: 🇯🇵 节点日期：11-22, server: 217.30.10.31, port: 8443, type: trojan, password: 422d402c-58f1-4473-abeb-fe6e69dc97ed, sni: joss.gpj1.web.id, skip-cert-verify: false, network: ws, ws-opts: {path: /Free-VPN-CF-Geo-Project/217.30.10.31=8443, headers: {Host: joss.gpj1.web.id}}}
   - {name: 【机场推荐：https://a0a.xyz/】39, server: 103.219.103.217, port: 23344, type: ss, cipher: aes-128-gcm, password: 79ad2852-eb76-4c3e-ba4d-3668ee5ece74}
-  - {name: 【机场推荐：https://a0a.xyz/】40, server: cdnfire.xiaomispeed.com, port: 25502, type: trojan, password: 394b1eee-9ea0-4782-9d0f-811f3ea15f65, sni: cdnfire.xiaomispeed.com, skip-cert-verify: false}
-  - {name: 【机场推荐：https://a0a.xyz/】41, server: 212.227.144.37, port: 8443, type: trojan, password: 1e1a7efa-a4f1-4936-a470-a001e0c3c85b, sni: joss.gpj1.web.id, skip-cert-verify: false, network: ws, ws-opts: {path: /Free-VPN-CF-Geo-Project/212.227.144.37=8443, headers: {Host: joss.gpj1.web.id}}}
-  - {name: 【机场推荐：https://a0a.xyz/】42, server: 91.103.253.193, port: 443, type: trojan, password: 1a758d17-149a-47f3-9336-d1cc33232cc9, sni: joss.gpj1.web.id, skip-cert-verify: false, network: ws, ws-opts: {path: /Free-VPN-CF-Geo-Project/91.103.253.193=443, headers: {Host: joss.gpj1.web.id}}}
-  - {name: 【机场推荐：https://a0a.xyz/】43, server: 103.219.103.217, port: 21712, type: ss, cipher: aes-128-gcm, password: 79ad2852-eb76-4c3e-ba4d-3668ee5ece74}
-  - {name: 【机场推荐：https://a0a.xyz/】44, server: vvVBgHyu.922922.SHoP, port: 80, type: vmess, uuid: bce0c7cb-08d1-46a7-b77b-7bff8b46252f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /RkUUbqhA9GJZBROjL3Q5vTymr, headers: {Host: vvVBgHyu.922922.SHoP}}}
-  - {name: 【机场推荐：https://a0a.xyz/】45, server: ss.007.node-for-bigairport.win, port: 36888, type: ss, cipher: aes-256-gcm, password: c69374da-2208-4cbd-b81e-cdf88b5e7f53}
-  - {name: 【机场推荐：https://a0a.xyz/】46, server: 113.57.36.148, port: 3304, type: vmess, uuid: f0305e21-30bb-32f9-9b1b-9e02dcf3af54, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 【机场推荐：https://a0a.xyz/】47, server: 43.212.254.91, port: 443, type: vless, uuid: e258977b-e413-4718-a3af-02d75492c349, tls: true, tfo: false, skip-cert-verify: false, servername: ww1.x-aniu-hk.netlib.re, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: ww1.x-aniu-hk.netlib.re}}}
-  - {name: 【机场推荐：https://a0a.xyz/】48, server: 45.159.251.8, port: 81, type: trojan, password: 6ead60c4-4321-45d5-81a9-ba4835f7c692, sni: joss.gpj1.web.id, skip-cert-verify: false, network: ws, ws-opts: {path: /Free-VPN-CF-Geo-Project/45.159.251.8=81, headers: {Host: joss.gpj1.web.id}}}
-  - {name: 【机场推荐：https://a0a.xyz/】49, server: 57.158.24.133, port: 25565, type: vless, uuid: e258977b-e413-4718-a3af-02d75492c349, tls: true, tfo: false, skip-cert-verify: false, servername: ww2.x-aniu-jp.netlib.re, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: ww2.x-aniu-jp.netlib.re}}}
-  - {name: 【机场推荐：https://a0a.xyz/】50, server: 5.160.197.78, port: 17564, type: vmess, uuid: aa7dd96b0a7d81db2e71553abe192620, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 【机场推荐：https://a0a.xyz/】51, server: 46.3.44.78, port: 443, type: vless, uuid: e258977b-e413-4718-a3af-02d75492c349, tls: true, tfo: false, skip-cert-verify: false, servername: ww2.x-aniu-jp.netlib.re, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: ww2.x-aniu-jp.netlib.re}}}
-  - {name: 【机场推荐：https://a0a.xyz/】52, server: tawaguard.xyz, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ}
-  - {name: 【机场推荐：https://a0a.xyz/】53, server: 14.102.228.75, port: 80, type: vless, uuid: b49d8a13-12f6-4613-bb0d-3e2f6244f29c, tls: false, tfo: false, skip-cert-verify: false, servername: ov-canada1.09vpn.com, network: ws, ws-opts: {path: /vless/, headers: {Host: ov-canada1.09vpn.com}}}
-  - {name: 【机场推荐：https://a0a.xyz/】54, server: tgju.org, port: 8080, type: vless, uuid: b38b778b-06f0-4161-91b2-1f0b220b7df4, tls: false, tfo: false, skip-cert-verify: false, servername: 015.electrocellco-cf-015.workers.dev, network: ws, ws-opts: {path: "/eyJqdW5rIjoiQm5nNGZUVWwiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIyMTMuMTcwLjE1Ny4xIl19?ed=2560", headers: {Host: 015.electrocellco-cf-015.workers.dev}}}
-  - {name: 【机场推荐：https://a0a.xyz/】56, server: 210.87.111.61, port: 39738, type: vless, uuid: aa7f42cc-616f-4550-9a87-4b85bb409121, tls: true, tfo: false, skip-cert-verify: false, servername: vless3.datatestvless.click, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: vless3.datatestvless.click}}}
-  - {name: 【机场推荐：https://a0a.xyz/】57, server: 138.124.30.8, port: 443, type: trojan, password: 0311306e-56d4-4aa1-bde5-8cede7fcd3e4, sni: joss.gpj1.web.id, skip-cert-verify: false, network: ws, ws-opts: {path: /Free-VPN-CF-Geo-Project/138.124.30.8=443, headers: {Host: joss.gpj1.web.id}}}
-  - {name: 【机场推荐：https://a0a.xyz/】58, server: wangcai139.cloudflare.182682.xyz, port: 8880, type: vless, uuid: 7890ce31-9a25-4fd4-90e7-80e5823ff510, tls: false, tfo: false, skip-cert-verify: false, servername: frejd.11258.workers.dev, network: ws, ws-opts: {path: "/Telegram🇨🇳 @WangCai2 /?ed=2560", headers: {Host: frejd.11258.workers.dev}}}
-  - {name: 【机场推荐：https://a0a.xyz/】59, server: 46.3.193.56, port: 9999, type: vless, uuid: e258977b-e413-4718-a3af-02d75492c349, tls: true, tfo: false, skip-cert-verify: false, servername: ww2.x-aniu-sg.netlib.re, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: ww2.x-aniu-sg.netlib.re}}}
-  - {name: 【机场推荐：https://a0a.xyz/】60, server: wangcai245.cloudflare.182682.xyz, port: 8880, type: vless, uuid: 7890ce31-9a25-4fd4-90e7-80e5823ff510, tls: false, tfo: false, skip-cert-verify: false, servername: frejd.11258.workers.dev, network: ws, ws-opts: {path: "/Telegram🇨🇳 @WangCai2 /?ed=2560", headers: {Host: frejd.11258.workers.dev}}}
-  - {name: 【机场推荐：https://a0a.xyz/】61, server: wangcai15.cloudflare.182682.xyz, port: 8880, type: vless, uuid: 7890ce31-9a25-4fd4-90e7-80e5823ff510, tls: false, tfo: false, skip-cert-verify: false, servername: frejd.11258.workers.dev, network: ws, ws-opts: {path: "/Telegram🇨🇳 @WangCai2 /?ed=2560", headers: {Host: frejd.11258.workers.dev}}}
-  - {name: 【机场推荐：https://a0a.xyz/】62, server: wangcai227.cloudflare.182682.xyz, port: 8880, type: vless, uuid: 7890ce31-9a25-4fd4-90e7-80e5823ff510, tls: false, tfo: false, skip-cert-verify: false, servername: frejd.11258.workers.dev, network: ws, ws-opts: {path: "/Telegram🇨🇳 @WangCai2 /?ed=2560", headers: {Host: frejd.11258.workers.dev}}}
-  - {name: 【机场推荐：https://a0a.xyz/】63, server: wangcai199.cloudflare.182682.xyz, port: 8880, type: vless, uuid: 7890ce31-9a25-4fd4-90e7-80e5823ff510, tls: false, tfo: false, skip-cert-verify: false, servername: frejd.11258.workers.dev, network: ws, ws-opts: {path: "/Telegram🇨🇳 @WangCai2 /?ed=2560", headers: {Host: frejd.11258.workers.dev}}}
-  - {name: 【机场推荐：https://a0a.xyz/】64, server: wangcai157.cloudflare.182682.xyz, port: 8880, type: vless, uuid: 7890ce31-9a25-4fd4-90e7-80e5823ff510, tls: false, tfo: false, skip-cert-verify: false, servername: frejd.11258.workers.dev, network: ws, ws-opts: {path: "/Telegram🇨🇳 @WangCai2 /?ed=2560", headers: {Host: frejd.11258.workers.dev}}}
-  - {name: 【机场推荐：https://a0a.xyz/】65, server: cdnfire.xiaomispeed.com, port: 21101, type: trojan, password: 394b1eee-9ea0-4782-9d0f-811f3ea15f65, sni: cdnfire.xiaomispeed.com, skip-cert-verify: false}
-  - {name: 【机场推荐：https://a0a.xyz/】66, server: cdnfire.xiaomispeed.com, port: 21103, type: trojan, password: 394b1eee-9ea0-4782-9d0f-811f3ea15f65, sni: cdnfire.xiaomispeed.com, skip-cert-verify: false}
-  - {name: 【机场推荐：https://a0a.xyz/】67, server: cdnfire.xiaomispeed.com, port: 21104, type: trojan, password: 394b1eee-9ea0-4782-9d0f-811f3ea15f65, sni: cdnfire.xiaomispeed.com, skip-cert-verify: false}
-  - {name: 【机场推荐：https://a0a.xyz/】68, server: cdnfire.xiaomispeed.com, port: 21102, type: trojan, password: 394b1eee-9ea0-4782-9d0f-811f3ea15f65, sni: cdnfire.xiaomispeed.com, skip-cert-verify: false}
-  - {name: 【机场推荐：https://a0a.xyz/】69, server: 37.252.5.75, port: 443, type: trojan, password: 3208e968-b862-4e2e-ad90-2b49e7ce7afb, sni: joss.gpj1.web.id, skip-cert-verify: false, network: ws, ws-opts: {path: /Free-VPN-CF-Geo-Project/37.252.5.75=443, headers: {Host: joss.gpj1.web.id}}}
-  - {name: 【机场推荐：https://a0a.xyz/】70, server: 103.30.78.141, port: 666, type: vless, uuid: e258977b-e413-4718-a3af-02d75492c349, tls: true, tfo: false, skip-cert-verify: false, servername: ww2.x-aniu-jp.netlib.re, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: ww2.x-aniu-jp.netlib.re}}}
-  - {name: 【机场推荐：https://a0a.xyz/】71, server: pupas-shirting-unsung.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: p78naCf2EfOlRSLTX0wFVx}
-  - {name: 【机场推荐：https://a0a.xyz/】72, server: cdnfire.xiaomispeed.com, port: 25501, type: trojan, password: 394b1eee-9ea0-4782-9d0f-811f3ea15f65, sni: cdnfire.xiaomispeed.com, skip-cert-verify: false}
-  - {name: 【机场推荐：https://a0a.xyz/】73, server: wangcai10.000444.cn, port: 8880, type: vless, uuid: 7890ce31-9a25-4fd4-90e7-80e5823ff510, tls: false, tfo: false, skip-cert-verify: false, servername: frejd.11258.workers.dev, network: ws, ws-opts: {path: "/Telegram🇨🇳 @WangCai2 /?ed=2560", headers: {Host: frejd.11258.workers.dev}}}
-  - {name: 【机场推荐：https://a0a.xyz/】74, server: wangcai40.000444.cn, port: 8880, type: vless, uuid: 7890ce31-9a25-4fd4-90e7-80e5823ff510, tls: false, tfo: false, skip-cert-verify: false, servername: frejd.11258.workers.dev, network: ws, ws-opts: {path: "/Telegram🇨🇳 @WangCai2 /?ed=2560", headers: {Host: frejd.11258.workers.dev}}}
-  - {name: 【机场推荐：https://a0a.xyz/】75, server: wangcai66.000444.cn, port: 8880, type: vless, uuid: 7890ce31-9a25-4fd4-90e7-80e5823ff510, tls: false, tfo: false, skip-cert-verify: false, servername: frejd.11258.workers.dev, network: ws, ws-opts: {path: "/Telegram🇨🇳 @WangCai2 /?ed=2560", headers: {Host: frejd.11258.workers.dev}}}
-  - {name: 【机场推荐：https://a0a.xyz/】76, server: wangcai210.000444.cn, port: 8880, type: vless, uuid: 7890ce31-9a25-4fd4-90e7-80e5823ff510, tls: false, tfo: false, skip-cert-verify: false, servername: frejd.11258.workers.dev, network: ws, ws-opts: {path: "/Telegram🇨🇳 @WangCai2 /?ed=2560", headers: {Host: frejd.11258.workers.dev}}}
-  - {name: 【机场推荐：https://a0a.xyz/】77, server: wangcai206.000444.cn, port: 8880, type: vless, uuid: 7890ce31-9a25-4fd4-90e7-80e5823ff510, tls: false, tfo: false, skip-cert-verify: false, servername: frejd.11258.workers.dev, network: ws, ws-opts: {path: "/Telegram🇨🇳 @WangCai2 /?ed=2560", headers: {Host: frejd.11258.workers.dev}}}
-  - {name: 【机场推荐：https://a0a.xyz/】78, server: wangcai250.000444.cn, port: 8880, type: vless, uuid: 7890ce31-9a25-4fd4-90e7-80e5823ff510, tls: false, tfo: false, skip-cert-verify: false, servername: frejd.11258.workers.dev, network: ws, ws-opts: {path: "/Telegram🇨🇳 @WangCai2 /?ed=2560", headers: {Host: frejd.11258.workers.dev}}}
-  - {name: 【机场推荐：https://a0a.xyz/】79, server: dDdFfGTHYU.922922.SHOP, port: 80, type: vmess, uuid: bce0c7cb-08d1-46a7-b77b-7bff8b46252f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /RkUUbqhA9GJZBROjL3Q5vTymr, headers: {Host: dDdFfGTHYU.922922.SHOP}}}
-  - {name: 【机场推荐：https://a0a.xyz/】80, server: tr-1.stunnel.cc, port: 8444, type: ss, cipher: chacha20-ietf-poly1305, password: tunnel-fbrof}
-  - {name: 【机场推荐：https://a0a.xyz/】81, server: www.udacity.com, port: 8443, type: vless, uuid: e258977b-e413-4718-a3af-02d75492c349, tls: true, tfo: false, skip-cert-verify: false, servername: ww2.x-aniu-sg.netlib.re, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: ww2.x-aniu-sg.netlib.re}}}
-  - {name: 【机场推荐：https://a0a.xyz/】82, server: wangcai72.000444.cn, port: 8880, type: vless, uuid: 7890ce31-9a25-4fd4-90e7-80e5823ff510, tls: false, tfo: false, skip-cert-verify: false, servername: frejd.11258.workers.dev, network: ws, ws-opts: {path: "/Telegram🇨🇳 @WangCai2 /?ed=2560", headers: {Host: frejd.11258.workers.dev}}}
-  - {name: 【机场推荐：https://a0a.xyz/】83, server: wangcai96.000444.cn, port: 8880, type: vless, uuid: 7890ce31-9a25-4fd4-90e7-80e5823ff510, tls: false, tfo: false, skip-cert-verify: false, servername: frejd.11258.workers.dev, network: ws, ws-opts: {path: "/Telegram🇨🇳 @WangCai2 /?ed=2560", headers: {Host: frejd.11258.workers.dev}}}
-  - {name: 【机场推荐：https://a0a.xyz/】84, server: wangcai115.cloudflare.182682.xyz, port: 8880, type: vless, uuid: 7890ce31-9a25-4fd4-90e7-80e5823ff510, tls: false, tfo: false, skip-cert-verify: false, servername: frejd.11258.workers.dev, network: ws, ws-opts: {path: "/Telegram🇨🇳 @WangCai2 /?ed=2560", headers: {Host: frejd.11258.workers.dev}}}
-  - {name: 【机场推荐：https://a0a.xyz/】85, server: wangcai202.000444.cn, port: 8880, type: vless, uuid: 7890ce31-9a25-4fd4-90e7-80e5823ff510, tls: false, tfo: false, skip-cert-verify: false, servername: frejd.11258.workers.dev, network: ws, ws-opts: {path: "/Telegram🇨🇳 @WangCai2 /?ed=2560", headers: {Host: frejd.11258.workers.dev}}}
-  - {name: 【机场推荐：https://a0a.xyz/】86, server: x.cf.090227.xyz, port: 2096, type: vless, uuid: e258977b-e413-4718-a3af-02d75492c349, tls: true, tfo: false, skip-cert-verify: false, servername: ww2.x-aniu-hk.netlib.re, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: ww2.x-aniu-hk.netlib.re}}}
-  - {name: 【机场推荐：https://a0a.xyz/】87, server: wangcai74.000444.cn, port: 8880, type: vless, uuid: 7890ce31-9a25-4fd4-90e7-80e5823ff510, tls: false, tfo: false, skip-cert-verify: false, servername: frejd.11258.workers.dev, network: ws, ws-opts: {path: "/Telegram🇨🇳 @WangCai2 /?ed=2560", headers: {Host: frejd.11258.workers.dev}}}
-  - {name: 【机场推荐：https://a0a.xyz/】88, server: wangcai112.000444.cn, port: 8880, type: vless, uuid: 7890ce31-9a25-4fd4-90e7-80e5823ff510, tls: false, tfo: false, skip-cert-verify: false, servername: frejd.11258.workers.dev, network: ws, ws-opts: {path: "/Telegram🇨🇳 @WangCai2 /?ed=2560", headers: {Host: frejd.11258.workers.dev}}}
-  - {name: 【机场推荐：https://a0a.xyz/】89, server: wangcai122.000444.cn, port: 8880, type: vless, uuid: 7890ce31-9a25-4fd4-90e7-80e5823ff510, tls: false, tfo: false, skip-cert-verify: false, servername: frejd.11258.workers.dev, network: ws, ws-opts: {path: "/Telegram🇨🇳 @WangCai2 /?ed=2560", headers: {Host: frejd.11258.workers.dev}}}
   - {name: 【机场推荐：https://a0a.xyz/】90, server: wangcai.singdns.com, port: 23344, type: ss, cipher: aes-128-gcm, password: 79ad2852-eb76-4c3e-ba4d-3668ee5ece74}
-  - {name: 【机场推荐：https://a0a.xyz/】91, server: wangcai42.000444.cn, port: 8880, type: vless, uuid: 7890ce31-9a25-4fd4-90e7-80e5823ff510, tls: false, tfo: false, skip-cert-verify: false, servername: frejd.11258.workers.dev, network: ws, ws-opts: {path: "/Telegram🇨🇳 @WangCai2 /?ed=2560", headers: {Host: frejd.11258.workers.dev}}}
-  - {name: 【机场推荐：https://a0a.xyz/】92, server: cdnfire.xiaomispeed.com, port: 23301, type: trojan, password: 394b1eee-9ea0-4782-9d0f-811f3ea15f65, sni: cdnfire.xiaomispeed.com, skip-cert-verify: false}
-  - {name: 【机场推荐：https://a0a.xyz/】93, server: wangcai204.000444.cn, port: 8880, type: vless, uuid: 7890ce31-9a25-4fd4-90e7-80e5823ff510, tls: false, tfo: false, skip-cert-verify: false, servername: frejd.11258.workers.dev, network: ws, ws-opts: {path: "/Telegram🇨🇳 @WangCai2 /?ed=2560", headers: {Host: frejd.11258.workers.dev}}}
-  - {name: 【机场推荐：https://a0a.xyz/】94, server: wangcai82.000444.cn, port: 8880, type: vless, uuid: 7890ce31-9a25-4fd4-90e7-80e5823ff510, tls: false, tfo: false, skip-cert-verify: false, servername: frejd.11258.workers.dev, network: ws, ws-opts: {path: "/Telegram🇨🇳 @WangCai2 /?ed=2560", headers: {Host: frejd.11258.workers.dev}}}
-  - {name: 【机场推荐：https://a0a.xyz/】95, server: wangcai232.000444.cn, port: 8880, type: vless, uuid: 7890ce31-9a25-4fd4-90e7-80e5823ff510, tls: false, tfo: false, skip-cert-verify: false, servername: frejd.11258.workers.dev, network: ws, ws-opts: {path: "/Telegram🇨🇳 @WangCai2 /?ed=2560", headers: {Host: frejd.11258.workers.dev}}}
-  - {name: 【机场推荐：https://a0a.xyz/】96, server: ZzXxdE.922922.sHOp, port: 80, type: vmess, uuid: bce0c7cb-08d1-46a7-b77b-7bff8b46252f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /RkUUbqhA9GJZBROjL3Q5vTymr, headers: {Host: ZzXxdE.922922.sHOp}}}
-  - {name: 【机场推荐：https://a0a.xyz/】97, server: wangcai80.000444.cn, port: 8880, type: vless, uuid: 7890ce31-9a25-4fd4-90e7-80e5823ff510, tls: false, tfo: false, skip-cert-verify: false, servername: frejd.11258.workers.dev, network: ws, ws-opts: {path: "/Telegram🇨🇳 @WangCai2 /?ed=2560", headers: {Host: frejd.11258.workers.dev}}}
-  - {name: 【机场推荐：https://a0a.xyz/】98, server: wangcai2.000444.cn, port: 8880, type: vless, uuid: 7890ce31-9a25-4fd4-90e7-80e5823ff510, tls: false, tfo: false, skip-cert-verify: false, servername: frejd.11258.workers.dev, network: ws, ws-opts: {path: "/Telegram🇨🇳 @WangCai2 /?ed=2560", headers: {Host: frejd.11258.workers.dev}}}
-  - {name: 【机场推荐：https://a0a.xyz/】99, server: dDdCCVFg.922922.SHOP, port: 80, type: vmess, uuid: bce0c7cb-08d1-46a7-b77b-7bff8b46252f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /RkUUbqhA9GJZBROjL3Q5vTymr, headers: {Host: dDdCCVFg.922922.SHOP}}}
-  - {name: 【机场推荐：https://a0a.xyz/】100, server: wangcai134.000444.cn, port: 8880, type: vless, uuid: 7890ce31-9a25-4fd4-90e7-80e5823ff510, tls: false, tfo: false, skip-cert-verify: false, servername: frejd.11258.workers.dev, network: ws, ws-opts: {path: "/Telegram🇨🇳 @WangCai2 /?ed=2560", headers: {Host: frejd.11258.workers.dev}}}
-  - {name: 【机场推荐：https://a0a.xyz/】101, server: 58.152.18.124, port: 443, type: trojan, password: dd2f25b4c70689de8bc0f7fa9d6591cb, sni: www.nintendogames.net, skip-cert-verify: false}
-  - {name: 【机场推荐：https://a0a.xyz/】102, server: wangcai130.000444.cn, port: 8880, type: vless, uuid: 7890ce31-9a25-4fd4-90e7-80e5823ff510, tls: false, tfo: false, skip-cert-verify: false, servername: frejd.11258.workers.dev, network: ws, ws-opts: {path: "/Telegram🇨🇳 @WangCai2 /?ed=2560", headers: {Host: frejd.11258.workers.dev}}}
+  - {name: 【机场推荐：https://a0a.xyz/】30, server: 45.14.245.2, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 17ZDORWIliQHuO6WRGHChXYMzdRtAYVP}
+  - {name: 【机场推荐：https://a0a.xyz/】41, server: 212.227.144.37, port: 8443, type: trojan, password: 1e1a7efa-a4f1-4936-a470-a001e0c3c85b, sni: joss.gpj1.web.id, skip-cert-verify: false, network: ws, ws-opts: {path: /Free-VPN-CF-Geo-Project/212.227.144.37=8443, headers: {Host: joss.gpj1.web.id}}}
+  - {name: 【机场推荐：https://a0a.xyz/】18, server: liubu9.singdns.com, port: 17459, type: ss, cipher: aes-128-gcm, password: 57bc0c04-8184-48f5-906b-897d095ed445}
+  - {name: 【机场推荐：https://a0a.xyz/】22, server: 51.15.210.1, port: 443, type: trojan, password: e6f0e8b0-3dc5-4d53-a23a-86c02d5ba098, sni: joss.gpj1.web.id, skip-cert-verify: false, network: ws, ws-opts: {path: /Free-VPN-CF-Geo-Project/51.15.210.1=443, headers: {Host: joss.gpj1.web.id}}}
+  - {name: 【机场推荐：https://a0a.xyz/】11, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048"}}
+  - {name: 【机场推荐：https://a0a.xyz/】36, server: switcher-nick-croquet.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 9tqhMdIrTkgQ46PvhyAtMH}
+  - {name: 【机场推荐：https://a0a.xyz/】19, server: DddFfRtY6.922922.shop, port: 80, type: vmess, uuid: bce0c7cb-08d1-46a7-b77b-7bff8b46252f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /RkUUbqhA9GJZBROjL3Q5vTymr, headers: {Host: DddFfRtY6.922922.shop}}}
+  - {name: 【机场推荐：https://a0a.xyz/】42, server: 91.103.253.193, port: 443, type: trojan, password: 1a758d17-149a-47f3-9336-d1cc33232cc9, sni: joss.gpj1.web.id, skip-cert-verify: false, network: ws, ws-opts: {path: /Free-VPN-CF-Geo-Project/91.103.253.193=443, headers: {Host: joss.gpj1.web.id}}}
+  - {name: 【机场推荐：https://a0a.xyz/】48, server: 45.159.251.8, port: 81, type: trojan, password: 6ead60c4-4321-45d5-81a9-ba4835f7c692, sni: joss.gpj1.web.id, skip-cert-verify: false, network: ws, ws-opts: {path: /Free-VPN-CF-Geo-Project/45.159.251.8=81, headers: {Host: joss.gpj1.web.id}}}
+  - {name: 【机场推荐：https://a0a.xyz/】9, server: 213.159.66.206, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: pl2XtR0pzwknQOGwewbwXtPYDw1zn9Vu}
+  - {name: 【机场推荐：https://a0a.xyz/】34, server: 216.133.148.215, port: 36987, type: vless, uuid: 0f4f3a75-ae36-4992-8cb5-6638f45afcb2, tls: false, tfo: false, skip-cert-verify: false, network: tcp}
+  - {name: 【机场推荐：https://a0a.xyz/】69, server: 37.252.5.75, port: 443, type: trojan, password: 3208e968-b862-4e2e-ad90-2b49e7ce7afb, sni: joss.gpj1.web.id, skip-cert-verify: false, network: ws, ws-opts: {path: /Free-VPN-CF-Geo-Project/37.252.5.75=443, headers: {Host: joss.gpj1.web.id}}}
+  - {name: 【机场推荐：https://a0a.xyz/】57, server: 138.124.30.8, port: 443, type: trojan, password: 0311306e-56d4-4aa1-bde5-8cede7fcd3e4, sni: joss.gpj1.web.id, skip-cert-verify: false, network: ws, ws-opts: {path: /Free-VPN-CF-Geo-Project/138.124.30.8=443, headers: {Host: joss.gpj1.web.id}}}
+  - {name: 【机场推荐：https://a0a.xyz/】8, server: 185.156.110.92, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: gXOXk2FJwsz9P6nXIICuDNOqF9gWX1dn}
+  - {name: 【机场推荐：https://a0a.xyz/】31, server: 4bb6-B667-f88608d19Fd5.664.QZz.iO, port: 80, type: vmess, uuid: 0507fbcd-b983-43a7-8e1d-2c561960ad4f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /pyyY4ZVTyJV3vr9noOhn, headers: {Host: 4Bb6-B667-f88608D19Fd5.664.QzZ.Io}}}
+  - {name: 【机场推荐：https://a0a.xyz/】43, server: 103.219.103.217, port: 21712, type: ss, cipher: aes-128-gcm, password: 79ad2852-eb76-4c3e-ba4d-3668ee5ece74}
+  - {name: 【机场推荐：https://a0a.xyz/】29, server: wangcai.singdns.com, port: 21712, type: ss, cipher: aes-128-gcm, password: 79ad2852-eb76-4c3e-ba4d-3668ee5ece74}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇯🇵 节点日期：11-21
-      - 【机场推荐：https://a0a.xyz/】2
-      - 【机场推荐：https://a0a.xyz/】3
-      - 【机场推荐：https://a0a.xyz/】4
-      - 【机场推荐：https://a0a.xyz/】5
-      - 【机场推荐：https://a0a.xyz/】6
-      - 【机场推荐：https://a0a.xyz/】7
-      - 【机场推荐：https://a0a.xyz/】8
-      - 【机场推荐：https://a0a.xyz/】9
-      - 【机场推荐：https://a0a.xyz/】10
-      - 【机场推荐：https://a0a.xyz/】11
-      - 【机场推荐：https://a0a.xyz/】12
-      - 【机场推荐：https://a0a.xyz/】13
-      - 【机场推荐：https://a0a.xyz/】14
-      - 【机场推荐：https://a0a.xyz/】15
-      - 【机场推荐：https://a0a.xyz/】16
-      - 【机场推荐：https://a0a.xyz/】17
-      - 【机场推荐：https://a0a.xyz/】18
-      - 【机场推荐：https://a0a.xyz/】19
-      - 【机场推荐：https://a0a.xyz/】20
-      - 【机场推荐：https://a0a.xyz/】21
-      - 【机场推荐：https://a0a.xyz/】22
-      - 【机场推荐：https://a0a.xyz/】23
-      - 【机场推荐：https://a0a.xyz/】24
-      - 【机场推荐：https://a0a.xyz/】25
-      - 【机场推荐：https://a0a.xyz/】26
-      - 【机场推荐：https://a0a.xyz/】27
-      - 【机场推荐：https://a0a.xyz/】28
-      - 【机场推荐：https://a0a.xyz/】29
-      - 【机场推荐：https://a0a.xyz/】30
-      - 【机场推荐：https://a0a.xyz/】31
-      - 【机场推荐：https://a0a.xyz/】32
-      - 【机场推荐：https://a0a.xyz/】33
-      - 【机场推荐：https://a0a.xyz/】34
-      - 【机场推荐：https://a0a.xyz/】35
-      - 【机场推荐：https://a0a.xyz/】36
-      - 【机场推荐：https://a0a.xyz/】37
-      - 【机场推荐：https://a0a.xyz/】38
+      - 🇯🇵 节点日期：11-22
       - 【机场推荐：https://a0a.xyz/】39
-      - 【机场推荐：https://a0a.xyz/】40
-      - 【机场推荐：https://a0a.xyz/】41
-      - 【机场推荐：https://a0a.xyz/】42
-      - 【机场推荐：https://a0a.xyz/】43
-      - 【机场推荐：https://a0a.xyz/】44
-      - 【机场推荐：https://a0a.xyz/】45
-      - 【机场推荐：https://a0a.xyz/】46
-      - 【机场推荐：https://a0a.xyz/】47
-      - 【机场推荐：https://a0a.xyz/】48
-      - 【机场推荐：https://a0a.xyz/】49
-      - 【机场推荐：https://a0a.xyz/】50
-      - 【机场推荐：https://a0a.xyz/】51
-      - 【机场推荐：https://a0a.xyz/】52
-      - 【机场推荐：https://a0a.xyz/】53
-      - 【机场推荐：https://a0a.xyz/】54
-      - 【机场推荐：https://a0a.xyz/】56
-      - 【机场推荐：https://a0a.xyz/】57
-      - 【机场推荐：https://a0a.xyz/】58
-      - 【机场推荐：https://a0a.xyz/】59
-      - 【机场推荐：https://a0a.xyz/】60
-      - 【机场推荐：https://a0a.xyz/】61
-      - 【机场推荐：https://a0a.xyz/】62
-      - 【机场推荐：https://a0a.xyz/】63
-      - 【机场推荐：https://a0a.xyz/】64
-      - 【机场推荐：https://a0a.xyz/】65
-      - 【机场推荐：https://a0a.xyz/】66
-      - 【机场推荐：https://a0a.xyz/】67
-      - 【机场推荐：https://a0a.xyz/】68
-      - 【机场推荐：https://a0a.xyz/】69
-      - 【机场推荐：https://a0a.xyz/】70
-      - 【机场推荐：https://a0a.xyz/】71
-      - 【机场推荐：https://a0a.xyz/】72
-      - 【机场推荐：https://a0a.xyz/】73
-      - 【机场推荐：https://a0a.xyz/】74
-      - 【机场推荐：https://a0a.xyz/】75
-      - 【机场推荐：https://a0a.xyz/】76
-      - 【机场推荐：https://a0a.xyz/】77
-      - 【机场推荐：https://a0a.xyz/】78
-      - 【机场推荐：https://a0a.xyz/】79
-      - 【机场推荐：https://a0a.xyz/】80
-      - 【机场推荐：https://a0a.xyz/】81
-      - 【机场推荐：https://a0a.xyz/】82
-      - 【机场推荐：https://a0a.xyz/】83
-      - 【机场推荐：https://a0a.xyz/】84
-      - 【机场推荐：https://a0a.xyz/】85
-      - 【机场推荐：https://a0a.xyz/】86
-      - 【机场推荐：https://a0a.xyz/】87
-      - 【机场推荐：https://a0a.xyz/】88
-      - 【机场推荐：https://a0a.xyz/】89
       - 【机场推荐：https://a0a.xyz/】90
-      - 【机场推荐：https://a0a.xyz/】91
-      - 【机场推荐：https://a0a.xyz/】92
-      - 【机场推荐：https://a0a.xyz/】93
-      - 【机场推荐：https://a0a.xyz/】94
-      - 【机场推荐：https://a0a.xyz/】95
-      - 【机场推荐：https://a0a.xyz/】96
-      - 【机场推荐：https://a0a.xyz/】97
-      - 【机场推荐：https://a0a.xyz/】98
-      - 【机场推荐：https://a0a.xyz/】99
-      - 【机场推荐：https://a0a.xyz/】100
-      - 【机场推荐：https://a0a.xyz/】101
-      - 【机场推荐：https://a0a.xyz/】102
+      - 【机场推荐：https://a0a.xyz/】30
+      - 【机场推荐：https://a0a.xyz/】41
+      - 【机场推荐：https://a0a.xyz/】18
+      - 【机场推荐：https://a0a.xyz/】22
+      - 【机场推荐：https://a0a.xyz/】11
+      - 【机场推荐：https://a0a.xyz/】36
+      - 【机场推荐：https://a0a.xyz/】19
+      - 【机场推荐：https://a0a.xyz/】42
+      - 【机场推荐：https://a0a.xyz/】48
+      - 【机场推荐：https://a0a.xyz/】9
+      - 【机场推荐：https://a0a.xyz/】34
+      - 【机场推荐：https://a0a.xyz/】69
+      - 【机场推荐：https://a0a.xyz/】57
+      - 【机场推荐：https://a0a.xyz/】8
+      - 【机场推荐：https://a0a.xyz/】31
+      - 【机场推荐：https://a0a.xyz/】43
+      - 【机场推荐：https://a0a.xyz/】29
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇯🇵 节点日期：11-21
-      - 【机场推荐：https://a0a.xyz/】2
-      - 【机场推荐：https://a0a.xyz/】3
-      - 【机场推荐：https://a0a.xyz/】4
-      - 【机场推荐：https://a0a.xyz/】5
-      - 【机场推荐：https://a0a.xyz/】6
-      - 【机场推荐：https://a0a.xyz/】7
-      - 【机场推荐：https://a0a.xyz/】8
-      - 【机场推荐：https://a0a.xyz/】9
-      - 【机场推荐：https://a0a.xyz/】10
-      - 【机场推荐：https://a0a.xyz/】11
-      - 【机场推荐：https://a0a.xyz/】12
-      - 【机场推荐：https://a0a.xyz/】13
-      - 【机场推荐：https://a0a.xyz/】14
-      - 【机场推荐：https://a0a.xyz/】15
-      - 【机场推荐：https://a0a.xyz/】16
-      - 【机场推荐：https://a0a.xyz/】17
-      - 【机场推荐：https://a0a.xyz/】18
-      - 【机场推荐：https://a0a.xyz/】19
-      - 【机场推荐：https://a0a.xyz/】20
-      - 【机场推荐：https://a0a.xyz/】21
-      - 【机场推荐：https://a0a.xyz/】22
-      - 【机场推荐：https://a0a.xyz/】23
-      - 【机场推荐：https://a0a.xyz/】24
-      - 【机场推荐：https://a0a.xyz/】25
-      - 【机场推荐：https://a0a.xyz/】26
-      - 【机场推荐：https://a0a.xyz/】27
-      - 【机场推荐：https://a0a.xyz/】28
-      - 【机场推荐：https://a0a.xyz/】29
-      - 【机场推荐：https://a0a.xyz/】30
-      - 【机场推荐：https://a0a.xyz/】31
-      - 【机场推荐：https://a0a.xyz/】32
-      - 【机场推荐：https://a0a.xyz/】33
-      - 【机场推荐：https://a0a.xyz/】34
-      - 【机场推荐：https://a0a.xyz/】35
-      - 【机场推荐：https://a0a.xyz/】36
-      - 【机场推荐：https://a0a.xyz/】37
-      - 【机场推荐：https://a0a.xyz/】38
+      - 🇯🇵 节点日期：11-22
       - 【机场推荐：https://a0a.xyz/】39
-      - 【机场推荐：https://a0a.xyz/】40
-      - 【机场推荐：https://a0a.xyz/】41
-      - 【机场推荐：https://a0a.xyz/】42
-      - 【机场推荐：https://a0a.xyz/】43
-      - 【机场推荐：https://a0a.xyz/】44
-      - 【机场推荐：https://a0a.xyz/】45
-      - 【机场推荐：https://a0a.xyz/】46
-      - 【机场推荐：https://a0a.xyz/】47
-      - 【机场推荐：https://a0a.xyz/】48
-      - 【机场推荐：https://a0a.xyz/】49
-      - 【机场推荐：https://a0a.xyz/】50
-      - 【机场推荐：https://a0a.xyz/】51
-      - 【机场推荐：https://a0a.xyz/】52
-      - 【机场推荐：https://a0a.xyz/】53
-      - 【机场推荐：https://a0a.xyz/】54
-      - 【机场推荐：https://a0a.xyz/】56
-      - 【机场推荐：https://a0a.xyz/】57
-      - 【机场推荐：https://a0a.xyz/】58
-      - 【机场推荐：https://a0a.xyz/】59
-      - 【机场推荐：https://a0a.xyz/】60
-      - 【机场推荐：https://a0a.xyz/】61
-      - 【机场推荐：https://a0a.xyz/】62
-      - 【机场推荐：https://a0a.xyz/】63
-      - 【机场推荐：https://a0a.xyz/】64
-      - 【机场推荐：https://a0a.xyz/】65
-      - 【机场推荐：https://a0a.xyz/】66
-      - 【机场推荐：https://a0a.xyz/】67
-      - 【机场推荐：https://a0a.xyz/】68
-      - 【机场推荐：https://a0a.xyz/】69
-      - 【机场推荐：https://a0a.xyz/】70
-      - 【机场推荐：https://a0a.xyz/】71
-      - 【机场推荐：https://a0a.xyz/】72
-      - 【机场推荐：https://a0a.xyz/】73
-      - 【机场推荐：https://a0a.xyz/】74
-      - 【机场推荐：https://a0a.xyz/】75
-      - 【机场推荐：https://a0a.xyz/】76
-      - 【机场推荐：https://a0a.xyz/】77
-      - 【机场推荐：https://a0a.xyz/】78
-      - 【机场推荐：https://a0a.xyz/】79
-      - 【机场推荐：https://a0a.xyz/】80
-      - 【机场推荐：https://a0a.xyz/】81
-      - 【机场推荐：https://a0a.xyz/】82
-      - 【机场推荐：https://a0a.xyz/】83
-      - 【机场推荐：https://a0a.xyz/】84
-      - 【机场推荐：https://a0a.xyz/】85
-      - 【机场推荐：https://a0a.xyz/】86
-      - 【机场推荐：https://a0a.xyz/】87
-      - 【机场推荐：https://a0a.xyz/】88
-      - 【机场推荐：https://a0a.xyz/】89
       - 【机场推荐：https://a0a.xyz/】90
-      - 【机场推荐：https://a0a.xyz/】91
-      - 【机场推荐：https://a0a.xyz/】92
-      - 【机场推荐：https://a0a.xyz/】93
-      - 【机场推荐：https://a0a.xyz/】94
-      - 【机场推荐：https://a0a.xyz/】95
-      - 【机场推荐：https://a0a.xyz/】96
-      - 【机场推荐：https://a0a.xyz/】97
-      - 【机场推荐：https://a0a.xyz/】98
-      - 【机场推荐：https://a0a.xyz/】99
-      - 【机场推荐：https://a0a.xyz/】100
-      - 【机场推荐：https://a0a.xyz/】101
-      - 【机场推荐：https://a0a.xyz/】102
+      - 【机场推荐：https://a0a.xyz/】30
+      - 【机场推荐：https://a0a.xyz/】41
+      - 【机场推荐：https://a0a.xyz/】18
+      - 【机场推荐：https://a0a.xyz/】22
+      - 【机场推荐：https://a0a.xyz/】11
+      - 【机场推荐：https://a0a.xyz/】36
+      - 【机场推荐：https://a0a.xyz/】19
+      - 【机场推荐：https://a0a.xyz/】42
+      - 【机场推荐：https://a0a.xyz/】48
+      - 【机场推荐：https://a0a.xyz/】9
+      - 【机场推荐：https://a0a.xyz/】34
+      - 【机场推荐：https://a0a.xyz/】69
+      - 【机场推荐：https://a0a.xyz/】57
+      - 【机场推荐：https://a0a.xyz/】8
+      - 【机场推荐：https://a0a.xyz/】31
+      - 【机场推荐：https://a0a.xyz/】43
+      - 【机场推荐：https://a0a.xyz/】29
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -337,107 +94,26 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇯🇵 节点日期：11-21
-      - 【机场推荐：https://a0a.xyz/】2
-      - 【机场推荐：https://a0a.xyz/】3
-      - 【机场推荐：https://a0a.xyz/】4
-      - 【机场推荐：https://a0a.xyz/】5
-      - 【机场推荐：https://a0a.xyz/】6
-      - 【机场推荐：https://a0a.xyz/】7
-      - 【机场推荐：https://a0a.xyz/】8
-      - 【机场推荐：https://a0a.xyz/】9
-      - 【机场推荐：https://a0a.xyz/】10
-      - 【机场推荐：https://a0a.xyz/】11
-      - 【机场推荐：https://a0a.xyz/】12
-      - 【机场推荐：https://a0a.xyz/】13
-      - 【机场推荐：https://a0a.xyz/】14
-      - 【机场推荐：https://a0a.xyz/】15
-      - 【机场推荐：https://a0a.xyz/】16
-      - 【机场推荐：https://a0a.xyz/】17
-      - 【机场推荐：https://a0a.xyz/】18
-      - 【机场推荐：https://a0a.xyz/】19
-      - 【机场推荐：https://a0a.xyz/】20
-      - 【机场推荐：https://a0a.xyz/】21
-      - 【机场推荐：https://a0a.xyz/】22
-      - 【机场推荐：https://a0a.xyz/】23
-      - 【机场推荐：https://a0a.xyz/】24
-      - 【机场推荐：https://a0a.xyz/】25
-      - 【机场推荐：https://a0a.xyz/】26
-      - 【机场推荐：https://a0a.xyz/】27
-      - 【机场推荐：https://a0a.xyz/】28
-      - 【机场推荐：https://a0a.xyz/】29
-      - 【机场推荐：https://a0a.xyz/】30
-      - 【机场推荐：https://a0a.xyz/】31
-      - 【机场推荐：https://a0a.xyz/】32
-      - 【机场推荐：https://a0a.xyz/】33
-      - 【机场推荐：https://a0a.xyz/】34
-      - 【机场推荐：https://a0a.xyz/】35
-      - 【机场推荐：https://a0a.xyz/】36
-      - 【机场推荐：https://a0a.xyz/】37
-      - 【机场推荐：https://a0a.xyz/】38
+      - 🇯🇵 节点日期：11-22
       - 【机场推荐：https://a0a.xyz/】39
-      - 【机场推荐：https://a0a.xyz/】40
-      - 【机场推荐：https://a0a.xyz/】41
-      - 【机场推荐：https://a0a.xyz/】42
-      - 【机场推荐：https://a0a.xyz/】43
-      - 【机场推荐：https://a0a.xyz/】44
-      - 【机场推荐：https://a0a.xyz/】45
-      - 【机场推荐：https://a0a.xyz/】46
-      - 【机场推荐：https://a0a.xyz/】47
-      - 【机场推荐：https://a0a.xyz/】48
-      - 【机场推荐：https://a0a.xyz/】49
-      - 【机场推荐：https://a0a.xyz/】50
-      - 【机场推荐：https://a0a.xyz/】51
-      - 【机场推荐：https://a0a.xyz/】52
-      - 【机场推荐：https://a0a.xyz/】53
-      - 【机场推荐：https://a0a.xyz/】54
-      - 【机场推荐：https://a0a.xyz/】56
-      - 【机场推荐：https://a0a.xyz/】57
-      - 【机场推荐：https://a0a.xyz/】58
-      - 【机场推荐：https://a0a.xyz/】59
-      - 【机场推荐：https://a0a.xyz/】60
-      - 【机场推荐：https://a0a.xyz/】61
-      - 【机场推荐：https://a0a.xyz/】62
-      - 【机场推荐：https://a0a.xyz/】63
-      - 【机场推荐：https://a0a.xyz/】64
-      - 【机场推荐：https://a0a.xyz/】65
-      - 【机场推荐：https://a0a.xyz/】66
-      - 【机场推荐：https://a0a.xyz/】67
-      - 【机场推荐：https://a0a.xyz/】68
-      - 【机场推荐：https://a0a.xyz/】69
-      - 【机场推荐：https://a0a.xyz/】70
-      - 【机场推荐：https://a0a.xyz/】71
-      - 【机场推荐：https://a0a.xyz/】72
-      - 【机场推荐：https://a0a.xyz/】73
-      - 【机场推荐：https://a0a.xyz/】74
-      - 【机场推荐：https://a0a.xyz/】75
-      - 【机场推荐：https://a0a.xyz/】76
-      - 【机场推荐：https://a0a.xyz/】77
-      - 【机场推荐：https://a0a.xyz/】78
-      - 【机场推荐：https://a0a.xyz/】79
-      - 【机场推荐：https://a0a.xyz/】80
-      - 【机场推荐：https://a0a.xyz/】81
-      - 【机场推荐：https://a0a.xyz/】82
-      - 【机场推荐：https://a0a.xyz/】83
-      - 【机场推荐：https://a0a.xyz/】84
-      - 【机场推荐：https://a0a.xyz/】85
-      - 【机场推荐：https://a0a.xyz/】86
-      - 【机场推荐：https://a0a.xyz/】87
-      - 【机场推荐：https://a0a.xyz/】88
-      - 【机场推荐：https://a0a.xyz/】89
       - 【机场推荐：https://a0a.xyz/】90
-      - 【机场推荐：https://a0a.xyz/】91
-      - 【机场推荐：https://a0a.xyz/】92
-      - 【机场推荐：https://a0a.xyz/】93
-      - 【机场推荐：https://a0a.xyz/】94
-      - 【机场推荐：https://a0a.xyz/】95
-      - 【机场推荐：https://a0a.xyz/】96
-      - 【机场推荐：https://a0a.xyz/】97
-      - 【机场推荐：https://a0a.xyz/】98
-      - 【机场推荐：https://a0a.xyz/】99
-      - 【机场推荐：https://a0a.xyz/】100
-      - 【机场推荐：https://a0a.xyz/】101
-      - 【机场推荐：https://a0a.xyz/】102
+      - 【机场推荐：https://a0a.xyz/】30
+      - 【机场推荐：https://a0a.xyz/】41
+      - 【机场推荐：https://a0a.xyz/】18
+      - 【机场推荐：https://a0a.xyz/】22
+      - 【机场推荐：https://a0a.xyz/】11
+      - 【机场推荐：https://a0a.xyz/】36
+      - 【机场推荐：https://a0a.xyz/】19
+      - 【机场推荐：https://a0a.xyz/】42
+      - 【机场推荐：https://a0a.xyz/】48
+      - 【机场推荐：https://a0a.xyz/】9
+      - 【机场推荐：https://a0a.xyz/】34
+      - 【机场推荐：https://a0a.xyz/】69
+      - 【机场推荐：https://a0a.xyz/】57
+      - 【机场推荐：https://a0a.xyz/】8
+      - 【机场推荐：https://a0a.xyz/】31
+      - 【机场推荐：https://a0a.xyz/】43
+      - 【机场推荐：https://a0a.xyz/】29
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
