@@ -102,6 +102,7 @@ rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-loopback,🎯 全球直连
+  - DOMAIN-SUFFIX,internal,🎯 全球直连
   - DOMAIN-SUFFIX,lan,🎯 全球直连
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - DOMAIN-SUFFIX,localhost,🎯 全球直连
@@ -109,6 +110,7 @@ rules:
   - IP-CIDR,10.0.0.0/8,🎯 全球直连,no-resolve
   - IP-CIDR,100.64.0.0/10,🎯 全球直连,no-resolve
   - IP-CIDR,127.0.0.0/8,🎯 全球直连,no-resolve
+  - IP-CIDR,169.254.0.0/16,🎯 全球直连,no-resolve
   - IP-CIDR,172.16.0.0/12,🎯 全球直连,no-resolve
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
   - IP-CIDR,198.18.0.0/16,🎯 全球直连,no-resolve
@@ -482,7 +484,6 @@ rules:
   - DOMAIN-SUFFIX,scupio.com,🛑 全球拦截
   - DOMAIN-SUFFIX,shuiguo.com,🛑 全球拦截
   - DOMAIN-SUFFIX,shuzilm.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,similarweb.com,🛑 全球拦截
   - DOMAIN-SUFFIX,sitemeter.com,🛑 全球拦截
   - DOMAIN-SUFFIX,sitescout.com,🛑 全球拦截
   - DOMAIN-SUFFIX,sitetag.us,🛑 全球拦截
@@ -1334,9 +1335,7 @@ rules:
   - DOMAIN-SUFFIX,log.mix.sina.com.cn,🛑 全球拦截
   - DOMAIN-SUFFIX,mobileads.dx.cn,🛑 全球拦截
   - DOMAIN-SUFFIX,newspush.sinajs.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,pay.mobile.sina.cn,🛑 全球拦截
   - DOMAIN-SUFFIX,sax.mobile.sina.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,sax.sina.com.cn,🛑 全球拦截
   - DOMAIN-SUFFIX,saxd.sina.com.cn,🛑 全球拦截
   - DOMAIN-SUFFIX,sdkapp.mobile.sina.cn,🛑 全球拦截
   - DOMAIN-SUFFIX,sdkapp.uve.weibo.com,🛑 全球拦截
@@ -1737,7 +1736,6 @@ rules:
   - DOMAIN-SUFFIX,dol.tianyaui.cn,🛑 全球拦截
   - DOMAIN-SUFFIX,dw.xcar.com.cn,🛑 全球拦截
   - DOMAIN-SUFFIX,e.nexac.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,eq.10jqka.com.cn,🛑 全球拦截
   - DOMAIN-SUFFIX,exp.17wo.cn,🛑 全球拦截
   - DOMAIN-SUFFIX,game.51yund.com,🛑 全球拦截
   - DOMAIN-SUFFIX,ganjituiguang.ganji.com,🛑 全球拦截
@@ -1754,7 +1752,6 @@ rules:
   - DOMAIN-SUFFIX,mobileads.msn.com,🛑 全球拦截
   - DOMAIN-SUFFIX,n.cosbot.cn,🛑 全球拦截
   - DOMAIN-SUFFIX,newton-api.ele.me,🛑 全球拦截
-  - DOMAIN-SUFFIX,ozone.10jqka.com.cn,🛑 全球拦截
   - DOMAIN-SUFFIX,pdl.gionee.com,🛑 全球拦截
   - DOMAIN-SUFFIX,pica-juicy.picacomic.com,🛑 全球拦截
   - DOMAIN-SUFFIX,pixel.wp.com,🛑 全球拦截
@@ -1767,7 +1764,6 @@ rules:
   - DOMAIN-SUFFIX,res.gwifi.com.cn,🛑 全球拦截
   - DOMAIN-SUFFIX,ssp.kssws.ks-cdn.com,🛑 全球拦截
   - DOMAIN-SUFFIX,sta.ganji.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,stat.10jqka.com.cn,🛑 全球拦截
   - DOMAIN-SUFFIX,stat.it168.com,🛑 全球拦截
   - DOMAIN-SUFFIX,stats.chinaz.com,🛑 全球拦截
   - DOMAIN-SUFFIX,stats.developingperspective.com,🛑 全球拦截
@@ -1775,7 +1771,6 @@ rules:
   - DOMAIN-SUFFIX,tracker.yhd.com,🛑 全球拦截
   - DOMAIN-SUFFIX,tralog.ganji.com,🛑 全球拦截
   - DOMAIN-SUFFIX,up.qingdaonews.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,vaserviece.10jqka.com.cn,🛑 全球拦截
   - DOMAIN-SUFFIX,265.com,🎯 全球直连
   - DOMAIN-SUFFIX,2mdn.net,🎯 全球直连
   - DOMAIN-SUFFIX,alt1-mtalk.google.com,🎯 全球直连
@@ -1849,6 +1844,7 @@ rules:
   - DOMAIN,copilot-proxy.githubusercontent.com,🚀 节点选择
   - DOMAIN,gemini.google.com,🚀 节点选择
   - DOMAIN,generativelanguage.googleapis.com,🚀 节点选择
+  - DOMAIN,notebooklm.google.com,🚀 节点选择
   - DOMAIN,sydney.bing.com,🚀 节点选择
   - DOMAIN-SUFFIX,ai.azure.com,🚀 节点选择
   - DOMAIN-SUFFIX,anthropic.com,🚀 节点选择
@@ -1856,6 +1852,7 @@ rules:
   - DOMAIN-SUFFIX,bard.google.com,🚀 节点选择
   - DOMAIN-SUFFIX,chatgpt.com,🚀 节点选择
   - DOMAIN-SUFFIX,claude.ai,🚀 节点选择
+  - DOMAIN-SUFFIX,claude.com,🚀 节点选择
   - DOMAIN-SUFFIX,claudeusercontent.com,🚀 节点选择
   - DOMAIN-SUFFIX,client-api.arkoselabs.com,🚀 节点选择
   - DOMAIN-SUFFIX,copilot.cloud.microsoft,🚀 节点选择
@@ -1870,6 +1867,7 @@ rules:
   - DOMAIN-SUFFIX,identrust.com,🚀 节点选择
   - DOMAIN-SUFFIX,intercom.io,🚀 节点选择
   - DOMAIN-SUFFIX,intercomcdn.com,🚀 节点选择
+  - DOMAIN-SUFFIX,jetbrains.ai,🚀 节点选择
   - DOMAIN-SUFFIX,makersuite.google.com,🚀 节点选择
   - DOMAIN-SUFFIX,meta.ai,🚀 节点选择
   - DOMAIN-SUFFIX,mistral.ai,🚀 节点选择
@@ -1879,6 +1877,7 @@ rules:
   - DOMAIN-SUFFIX,openaiapi-site.azureedge.net,🚀 节点选择
   - DOMAIN-SUFFIX,perplexity.ai,🚀 节点选择
   - DOMAIN-SUFFIX,sora.com,🚀 节点选择
+  - DOMAIN-SUFFIX,x.ai,🚀 节点选择
   - DOMAIN-KEYWORD,abematv.akamaized.net,🚀 节点选择
   - DOMAIN-SUFFIX,abema.io,🚀 节点选择
   - DOMAIN-SUFFIX,abema.tv,🚀 节点选择
@@ -2441,6 +2440,7 @@ rules:
   - DOMAIN-SUFFIX,1e100.net,🚀 节点选择
   - DOMAIN-SUFFIX,2mdn.net,🚀 节点选择
   - DOMAIN-SUFFIX,app-measurement.net,🚀 节点选择
+  - DOMAIN-SUFFIX,c.gle,🚀 节点选择
   - DOMAIN-SUFFIX,g.co,🚀 节点选择
   - DOMAIN-SUFFIX,ggpht.com,🚀 节点选择
   - DOMAIN-SUFFIX,goo.gl,🚀 节点选择
@@ -2520,6 +2520,7 @@ rules:
   - DOMAIN-SUFFIX,spoprod-a.akamaihd.net,🚀 节点选择
   - DOMAIN-SUFFIX,storage.live.com,🚀 节点选择
   - DOMAIN-SUFFIX,storage.msn.com,🚀 节点选择
+  - DOMAIN-SUFFIX,microsoftpersonalcontent.com,🚀 节点选择
   - DOMAIN-KEYWORD,porn,🚀 节点选择
   - DOMAIN-SUFFIX,8teenxxx.com,🚀 节点选择
   - DOMAIN-SUFFIX,ahcdn.com,🚀 节点选择
@@ -2683,6 +2684,7 @@ rules:
   - DOMAIN-SUFFIX,aliapp.org,🎯 全球直连
   - DOMAIN-SUFFIX,alibaba.com,🎯 全球直连
   - DOMAIN-SUFFIX,alibabacloud.com,🎯 全球直连
+  - DOMAIN-SUFFIX,alibabachengdun.com,🎯 全球直连
   - DOMAIN-SUFFIX,alibabausercontent.com,🎯 全球直连
   - DOMAIN-SUFFIX,alicdn.com,🎯 全球直连
   - DOMAIN-SUFFIX,alicloudccp.com,🎯 全球直连
@@ -2701,6 +2703,7 @@ rules:
   - DOMAIN-SUFFIX,autonavi.com,🎯 全球直连
   - DOMAIN-SUFFIX,dingtalk.com,🎯 全球直连
   - DOMAIN-SUFFIX,ele.me,🎯 全球直连
+  - DOMAIN-SUFFIX,elemecdn.com,🎯 全球直连
   - DOMAIN-SUFFIX,hichina.com,🎯 全球直连
   - DOMAIN-SUFFIX,mmstat.com,🎯 全球直连
   - DOMAIN-SUFFIX,mxhichina.com,🎯 全球直连
@@ -2708,6 +2711,7 @@ rules:
   - DOMAIN-SUFFIX,taobao.com,🎯 全球直连
   - DOMAIN-SUFFIX,taobaocdn.com,🎯 全球直连
   - DOMAIN-SUFFIX,tbcache.com,🎯 全球直连
+  - DOMAIN-SUFFIX,tbcdn.cn,🎯 全球直连
   - DOMAIN-SUFFIX,tbcdn.com,🎯 全球直连
   - DOMAIN-SUFFIX,tmall.com,🎯 全球直连
   - DOMAIN-SUFFIX,tmall.hk,🎯 全球直连
@@ -3037,6 +3041,7 @@ rules:
   - DOMAIN-SUFFIX,air-matters.io,🎯 全球直连
   - DOMAIN-SUFFIX,aixifan.com,🎯 全球直连
   - DOMAIN-SUFFIX,algocasts.io,🎯 全球直连
+  - DOMAIN-SUFFIX,asklink.com,🎯 全球直连
   - DOMAIN-SUFFIX,babytree.com,🎯 全球直连
   - DOMAIN-SUFFIX,babytreeimg.com,🎯 全球直连
   - DOMAIN-SUFFIX,baicizhan.com,🎯 全球直连
