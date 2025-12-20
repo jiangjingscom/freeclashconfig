@@ -5,63 +5,42 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇯🇵 节点日期：12-19, server: 103.97.203.220, port: 550, type: vmess, uuid: 9e0e83ca-0fbc-44b1-8024-0eb8f9414156, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, tfo: false}
-  - {name: 【机场推荐：https://a0a.xyz/】108, server: 194.246.114.101, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: HaNqw9pIE4jcx98sg7UQgHeGNTM4R2pk, tfo: false}
-  - {name: 【机场推荐：https://a0a.xyz/】109, server: 45.82.252.109, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=, tfo: false}
-  - {name: 【机场推荐：https://a0a.xyz/】10, server: 103.57.251.240, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=, tfo: false}
-  - {name: 【机场推荐：https://a0a.xyz/】34, server: 37.235.56.69, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=, tfo: false}
-  - {name: 【机场推荐：https://a0a.xyz/】201, server: 23.95.76.147, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=, tfo: false}
-  - {name: 【机场推荐：https://a0a.xyz/】100, server: 185.47.255.22, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, tfo: false}
+  - {name: 🇯🇵 节点日期：12-20, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, tfo: false}
   - {name: 【机场推荐：https://a0a.xyz/】25, server: 89.221.225.15, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: yCbQ4bry4otfifK7oel71NaXpPL9pYJb, tfo: false}
-  - {name: 【机场推荐：https://a0a.xyz/】99, server: 217.60.249.112, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 0eC4ZBvStOgQEzTpCYjWN5, tfo: false}
-  - {name: 【机场推荐：https://a0a.xyz/】115, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, tfo: false}
-  - {name: 【机场推荐：https://a0a.xyz/】81, server: 156.146.38.169, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, tfo: false}
-  - {name: 【机场推荐：https://a0a.xyz/】91, server: 173.244.56.6, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, tfo: false}
+  - {name: 【机场推荐：https://a0a.xyz/】108, server: 194.246.114.101, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: HaNqw9pIE4jcx98sg7UQgHeGNTM4R2pk, tfo: false}
   - {name: 【机场推荐：https://a0a.xyz/】133, server: 178.23.190.238, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: uo7EbtqIwgZXXHmMv5LbLcOxptyPlNkh, tfo: false}
-  - {name: 【机场推荐：https://a0a.xyz/】83, server: 156.146.38.170, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, tfo: false}
-  - {name: 【机场推荐：https://a0a.xyz/】18, server: 79.127.200.169, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=, tfo: false}
+  - {name: 【机场推荐：https://a0a.xyz/】100, server: 185.47.255.22, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, tfo: false}
+  - {name: 【机场推荐：https://a0a.xyz/】99, server: 217.60.249.112, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 0eC4ZBvStOgQEzTpCYjWN5, tfo: false}
+  - {name: 【机场推荐：https://a0a.xyz/】10, server: 103.57.251.240, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=, tfo: false}
+  - {name: 【机场推荐：https://a0a.xyz/】91, server: 173.244.56.6, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇯🇵 节点日期：12-19
-      - 【机场推荐：https://a0a.xyz/】108
-      - 【机场推荐：https://a0a.xyz/】109
-      - 【机场推荐：https://a0a.xyz/】10
-      - 【机场推荐：https://a0a.xyz/】34
-      - 【机场推荐：https://a0a.xyz/】201
-      - 【机场推荐：https://a0a.xyz/】100
+      - 🇯🇵 节点日期：12-20
       - 【机场推荐：https://a0a.xyz/】25
-      - 【机场推荐：https://a0a.xyz/】99
-      - 【机场推荐：https://a0a.xyz/】115
-      - 【机场推荐：https://a0a.xyz/】81
-      - 【机场推荐：https://a0a.xyz/】91
+      - 【机场推荐：https://a0a.xyz/】108
       - 【机场推荐：https://a0a.xyz/】133
-      - 【机场推荐：https://a0a.xyz/】83
-      - 【机场推荐：https://a0a.xyz/】18
+      - 【机场推荐：https://a0a.xyz/】100
+      - 【机场推荐：https://a0a.xyz/】99
+      - 【机场推荐：https://a0a.xyz/】10
+      - 【机场推荐：https://a0a.xyz/】91
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇯🇵 节点日期：12-19
-      - 【机场推荐：https://a0a.xyz/】108
-      - 【机场推荐：https://a0a.xyz/】109
-      - 【机场推荐：https://a0a.xyz/】10
-      - 【机场推荐：https://a0a.xyz/】34
-      - 【机场推荐：https://a0a.xyz/】201
-      - 【机场推荐：https://a0a.xyz/】100
+      - 🇯🇵 节点日期：12-20
       - 【机场推荐：https://a0a.xyz/】25
-      - 【机场推荐：https://a0a.xyz/】99
-      - 【机场推荐：https://a0a.xyz/】115
-      - 【机场推荐：https://a0a.xyz/】81
-      - 【机场推荐：https://a0a.xyz/】91
+      - 【机场推荐：https://a0a.xyz/】108
       - 【机场推荐：https://a0a.xyz/】133
-      - 【机场推荐：https://a0a.xyz/】83
-      - 【机场推荐：https://a0a.xyz/】18
+      - 【机场推荐：https://a0a.xyz/】100
+      - 【机场推荐：https://a0a.xyz/】99
+      - 【机场推荐：https://a0a.xyz/】10
+      - 【机场推荐：https://a0a.xyz/】91
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -79,21 +58,14 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇯🇵 节点日期：12-19
-      - 【机场推荐：https://a0a.xyz/】108
-      - 【机场推荐：https://a0a.xyz/】109
-      - 【机场推荐：https://a0a.xyz/】10
-      - 【机场推荐：https://a0a.xyz/】34
-      - 【机场推荐：https://a0a.xyz/】201
-      - 【机场推荐：https://a0a.xyz/】100
+      - 🇯🇵 节点日期：12-20
       - 【机场推荐：https://a0a.xyz/】25
-      - 【机场推荐：https://a0a.xyz/】99
-      - 【机场推荐：https://a0a.xyz/】115
-      - 【机场推荐：https://a0a.xyz/】81
-      - 【机场推荐：https://a0a.xyz/】91
+      - 【机场推荐：https://a0a.xyz/】108
       - 【机场推荐：https://a0a.xyz/】133
-      - 【机场推荐：https://a0a.xyz/】83
-      - 【机场推荐：https://a0a.xyz/】18
+      - 【机场推荐：https://a0a.xyz/】100
+      - 【机场推荐：https://a0a.xyz/】99
+      - 【机场推荐：https://a0a.xyz/】10
+      - 【机场推荐：https://a0a.xyz/】91
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
