@@ -1,78 +1,40 @@
-####################################
-# 创建者：v2rayse.com
-# 客户端：Clash.Meta
-# 创建时间：2025-06-30 06:55:21
-# 使用模版：clash meta
-# 节点数量：38
-# 节点类型：vless, hysteria2, trojan, ss, vmess
-# !!当前配置文件请使用基于 Clash.Meta 内核程序
-####################################
-# !!当前配置文件请使用基于 Clash.Meta 内核程序
 port: 7890
 socks-port: 7891
 allow-lan: true
 mode: Rule
 log-level: info
-external-controller: ':9090'
-
+external-controller: 127.0.0.1:9090
 proxies:
-  - {"name":"节点日期：12-21\r","type":"ss","server":"95.164.116.33","port":443,"password":"pQmnC03JObbPhdh5FBJHgD6jnTLchsRA","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"【机场推荐：https://a0a.xyz/】18\r","type":"ss","server":"119.59.98.58","port":990,"password":"f8f7aCzcPKbsF8p3","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"【机场推荐：https://a0a.xyz/】21","type":"vmess","server":"46.3.47.250","port":20002,"cipher":"auto","uuid":"e5ce425e-0b84-435c-aee5-9f9ecbe2cb16","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"【机场推荐：https://a0a.xyz/】23","type":"vmess","server":"46.3.47.250","port":20004,"cipher":"auto","uuid":"e5ce425e-0b84-435c-aee5-9f9ecbe2cb16","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"【机场推荐：https://a0a.xyz/】29","type":"vmess","server":"v30.hdacd.com","port":30830,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"【机场推荐：https://a0a.xyz/】26\r","type":"ss","server":"89.221.225.15","port":443,"password":"yCbQ4bry4otfifK7oel71NaXpPL9pYJb","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"【机场推荐：https://a0a.xyz/】48","type":"vmess","server":"82.198.246.97","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"【机场推荐：https://a0a.xyz/】27\r","type":"vless","server":"89.23.103.60","port":5443,"uuid":"8f631f3f-5854-4d77-961a-ad33e10e29bb","tls":false,"servername":"noda3.mcqueenconnection.ru","network":"ws","ws-opts":{"path":"/vless"}}
-  - {"name":"【机场推荐：https://a0a.xyz/】45\r","type":"vless","server":"46.224.152.184","port":55484,"uuid":"1d03fcc7-8af7-4277-9a6d-bf8f1f0eb6e4","tls":false,"network":"tcp"}
-  - {"name":"【机场推荐：https://a0a.xyz/】41\r","type":"vless","server":"78.47.66.175","port":17080,"uuid":"3c53a875-557f-4ece-a0b1-8c3c8dfc0458","tls":false,"network":"tcp"}
-  - {"name":"【机场推荐：https://a0a.xyz/】34\r","type":"ss","server":"185.47.255.22","port":990,"password":"f8f7aCzcPKbsF8p3","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"【机场推荐：https://a0a.xyz/】43\r","type":"ss","server":"46.224.157.198","port":1080,"password":"VQhct3pJXkASHgKQcQcliw","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"【机场推荐：https://a0a.xyz/】51\r","type":"ss","server":"178.23.190.238","port":443,"password":"uo7EbtqIwgZXXHmMv5LbLcOxptyPlNkh","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"【机场推荐：https://a0a.xyz/】53\r","type":"ss","server":"193.203.203.66","port":443,"password":"S6jUK9Fw5fMHgNqlqXObHZWv8Tf4nEkm","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"【机场推荐：https://a0a.xyz/】6\r","type":"ss","server":"194.246.114.101","port":443,"password":"HaNqw9pIE4jcx98sg7UQgHeGNTM4R2pk","cipher":"chacha20-ietf-poly1305"}
+  - {name: 节点日期：12-23, server: 95.164.116.33, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: pQmnC03JObbPhdh5FBJHgD6jnTLchsRA}
+  - {name: 【机场推荐：https://a0a.xyz/】26, server: 89.221.225.15, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: yCbQ4bry4otfifK7oel71NaXpPL9pYJb}
+  - {name: 【机场推荐：https://a0a.xyz/】6, server: 194.246.114.101, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: HaNqw9pIE4jcx98sg7UQgHeGNTM4R2pk}
+  - {name: 【机场推荐：https://a0a.xyz/】48, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false}
+  - {name: 【机场推荐：https://a0a.xyz/】18, server: 119.59.98.58, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3}
+  - {name: 【机场推荐：https://a0a.xyz/】53, server: 193.203.203.66, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: S6jUK9Fw5fMHgNqlqXObHZWv8Tf4nEkm}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - "节点日期：12-21\r"
-      - "【机场推荐：https://a0a.xyz/】18\r"
-      - 【机场推荐：https://a0a.xyz/】21
-      - 【机场推荐：https://a0a.xyz/】23
-      - 【机场推荐：https://a0a.xyz/】29
-      - "【机场推荐：https://a0a.xyz/】26\r"
+      - 节点日期：12-23
+      - 【机场推荐：https://a0a.xyz/】26
+      - 【机场推荐：https://a0a.xyz/】6
       - 【机场推荐：https://a0a.xyz/】48
-      - "【机场推荐：https://a0a.xyz/】27\r"
-      - "【机场推荐：https://a0a.xyz/】45\r"
-      - "【机场推荐：https://a0a.xyz/】41\r"
-      - "【机场推荐：https://a0a.xyz/】34\r"
-      - "【机场推荐：https://a0a.xyz/】43\r"
-      - "【机场推荐：https://a0a.xyz/】51\r"
-      - "【机场推荐：https://a0a.xyz/】53\r"
-      - "【机场推荐：https://a0a.xyz/】6\r"
+      - 【机场推荐：https://a0a.xyz/】18
+      - 【机场推荐：https://a0a.xyz/】53
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - "节点日期：12-21\r"
-      - "【机场推荐：https://a0a.xyz/】18\r"
-      - 【机场推荐：https://a0a.xyz/】21
-      - 【机场推荐：https://a0a.xyz/】23
-      - 【机场推荐：https://a0a.xyz/】29
-      - "【机场推荐：https://a0a.xyz/】26\r"
+      - 节点日期：12-23
+      - 【机场推荐：https://a0a.xyz/】26
+      - 【机场推荐：https://a0a.xyz/】6
       - 【机场推荐：https://a0a.xyz/】48
-      - "【机场推荐：https://a0a.xyz/】27\r"
-      - "【机场推荐：https://a0a.xyz/】45\r"
-      - "【机场推荐：https://a0a.xyz/】41\r"
-      - "【机场推荐：https://a0a.xyz/】34\r"
-      - "【机场推荐：https://a0a.xyz/】43\r"
-      - "【机场推荐：https://a0a.xyz/】51\r"
-      - "【机场推荐：https://a0a.xyz/】53\r"
-      - "【机场推荐：https://a0a.xyz/】6\r"
+      - 【机场推荐：https://a0a.xyz/】18
+      - 【机场推荐：https://a0a.xyz/】53
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -90,26 +52,17 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "节点日期：12-21\r"
-      - "【机场推荐：https://a0a.xyz/】18\r"
-      - 【机场推荐：https://a0a.xyz/】21
-      - 【机场推荐：https://a0a.xyz/】23
-      - 【机场推荐：https://a0a.xyz/】29
-      - "【机场推荐：https://a0a.xyz/】26\r"
+      - 节点日期：12-23
+      - 【机场推荐：https://a0a.xyz/】26
+      - 【机场推荐：https://a0a.xyz/】6
       - 【机场推荐：https://a0a.xyz/】48
-      - "【机场推荐：https://a0a.xyz/】27\r"
-      - "【机场推荐：https://a0a.xyz/】45\r"
-      - "【机场推荐：https://a0a.xyz/】41\r"
-      - "【机场推荐：https://a0a.xyz/】34\r"
-      - "【机场推荐：https://a0a.xyz/】43\r"
-      - "【机场推荐：https://a0a.xyz/】51\r"
-      - "【机场推荐：https://a0a.xyz/】53\r"
-      - "【机场推荐：https://a0a.xyz/】6\r"
-
+      - 【机场推荐：https://a0a.xyz/】18
+      - 【机场推荐：https://a0a.xyz/】53
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-loopback,🎯 全球直连
+  - DOMAIN-SUFFIX,internal,🎯 全球直连
   - DOMAIN-SUFFIX,lan,🎯 全球直连
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - DOMAIN-SUFFIX,localhost,🎯 全球直连
@@ -117,6 +70,7 @@ rules:
   - IP-CIDR,10.0.0.0/8,🎯 全球直连,no-resolve
   - IP-CIDR,100.64.0.0/10,🎯 全球直连,no-resolve
   - IP-CIDR,127.0.0.0/8,🎯 全球直连,no-resolve
+  - IP-CIDR,169.254.0.0/16,🎯 全球直连,no-resolve
   - IP-CIDR,172.16.0.0/12,🎯 全球直连,no-resolve
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
   - IP-CIDR,198.18.0.0/16,🎯 全球直连,no-resolve
@@ -160,6 +114,19 @@ rules:
   - DOMAIN,rewards.hypixel.net,🎯 全球直连
   - DOMAIN-SUFFIX,koodomobile.com,🎯 全球直连
   - DOMAIN-SUFFIX,koodomobile.ca,🎯 全球直连
+  - DOMAIN-SUFFIX,synology.me,🎯 全球直连
+  - DOMAIN-SUFFIX,DiskStation.me,🎯 全球直连
+  - DOMAIN-SUFFIX,i234.me,🎯 全球直连
+  - DOMAIN-SUFFIX,myDS.me,🎯 全球直连
+  - DOMAIN-SUFFIX,DSCloud.biz,🎯 全球直连
+  - DOMAIN-SUFFIX,DSCloud.me,🎯 全球直连
+  - DOMAIN-SUFFIX,DSCloud.mobi,🎯 全球直连
+  - DOMAIN-SUFFIX,DSmyNAS.com,🎯 全球直连
+  - DOMAIN-SUFFIX,DSmyNAS.net,🎯 全球直连
+  - DOMAIN-SUFFIX,DSmyNAS.org,🎯 全球直连
+  - DOMAIN-SUFFIX,FamilyDS.com,🎯 全球直连
+  - DOMAIN-SUFFIX,FamilyDS.net,🎯 全球直连
+  - DOMAIN-SUFFIX,FamilyDS.org,🎯 全球直连
   - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
   - DOMAIN-KEYWORD,admaster,🛑 全球拦截
   - DOMAIN-KEYWORD,adsage,🛑 全球拦截
@@ -477,7 +444,6 @@ rules:
   - DOMAIN-SUFFIX,scupio.com,🛑 全球拦截
   - DOMAIN-SUFFIX,shuiguo.com,🛑 全球拦截
   - DOMAIN-SUFFIX,shuzilm.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,similarweb.com,🛑 全球拦截
   - DOMAIN-SUFFIX,sitemeter.com,🛑 全球拦截
   - DOMAIN-SUFFIX,sitescout.com,🛑 全球拦截
   - DOMAIN-SUFFIX,sitetag.us,🛑 全球拦截
@@ -1269,7 +1235,6 @@ rules:
   - DOMAIN-SUFFIX,shenghuo.xiaomi.com,🛑 全球拦截
   - DOMAIN-SUFFIX,stat.pandora.xiaomi.com,🛑 全球拦截
   - DOMAIN-SUFFIX,union.mi.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,wtradv.market.xiaomi.com,🛑 全球拦截
   - DOMAIN-SUFFIX,ad.api.moji.com,🛑 全球拦截
   - DOMAIN-SUFFIX,app.moji001.com,🛑 全球拦截
   - DOMAIN-SUFFIX,cdn.moji002.com,🛑 全球拦截
@@ -1330,9 +1295,7 @@ rules:
   - DOMAIN-SUFFIX,log.mix.sina.com.cn,🛑 全球拦截
   - DOMAIN-SUFFIX,mobileads.dx.cn,🛑 全球拦截
   - DOMAIN-SUFFIX,newspush.sinajs.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,pay.mobile.sina.cn,🛑 全球拦截
   - DOMAIN-SUFFIX,sax.mobile.sina.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,sax.sina.com.cn,🛑 全球拦截
   - DOMAIN-SUFFIX,saxd.sina.com.cn,🛑 全球拦截
   - DOMAIN-SUFFIX,sdkapp.mobile.sina.cn,🛑 全球拦截
   - DOMAIN-SUFFIX,sdkapp.uve.weibo.com,🛑 全球拦截
@@ -1733,7 +1696,6 @@ rules:
   - DOMAIN-SUFFIX,dol.tianyaui.cn,🛑 全球拦截
   - DOMAIN-SUFFIX,dw.xcar.com.cn,🛑 全球拦截
   - DOMAIN-SUFFIX,e.nexac.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,eq.10jqka.com.cn,🛑 全球拦截
   - DOMAIN-SUFFIX,exp.17wo.cn,🛑 全球拦截
   - DOMAIN-SUFFIX,game.51yund.com,🛑 全球拦截
   - DOMAIN-SUFFIX,ganjituiguang.ganji.com,🛑 全球拦截
@@ -1750,7 +1712,6 @@ rules:
   - DOMAIN-SUFFIX,mobileads.msn.com,🛑 全球拦截
   - DOMAIN-SUFFIX,n.cosbot.cn,🛑 全球拦截
   - DOMAIN-SUFFIX,newton-api.ele.me,🛑 全球拦截
-  - DOMAIN-SUFFIX,ozone.10jqka.com.cn,🛑 全球拦截
   - DOMAIN-SUFFIX,pdl.gionee.com,🛑 全球拦截
   - DOMAIN-SUFFIX,pica-juicy.picacomic.com,🛑 全球拦截
   - DOMAIN-SUFFIX,pixel.wp.com,🛑 全球拦截
@@ -1763,7 +1724,6 @@ rules:
   - DOMAIN-SUFFIX,res.gwifi.com.cn,🛑 全球拦截
   - DOMAIN-SUFFIX,ssp.kssws.ks-cdn.com,🛑 全球拦截
   - DOMAIN-SUFFIX,sta.ganji.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,stat.10jqka.com.cn,🛑 全球拦截
   - DOMAIN-SUFFIX,stat.it168.com,🛑 全球拦截
   - DOMAIN-SUFFIX,stats.chinaz.com,🛑 全球拦截
   - DOMAIN-SUFFIX,stats.developingperspective.com,🛑 全球拦截
@@ -1771,7 +1731,6 @@ rules:
   - DOMAIN-SUFFIX,tracker.yhd.com,🛑 全球拦截
   - DOMAIN-SUFFIX,tralog.ganji.com,🛑 全球拦截
   - DOMAIN-SUFFIX,up.qingdaonews.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,vaserviece.10jqka.com.cn,🛑 全球拦截
   - DOMAIN-SUFFIX,265.com,🎯 全球直连
   - DOMAIN-SUFFIX,2mdn.net,🎯 全球直连
   - DOMAIN-SUFFIX,alt1-mtalk.google.com,🎯 全球直连
@@ -1817,10 +1776,6 @@ rules:
   - DOMAIN-SUFFIX,steamchina.com,🎯 全球直连
   - DOMAIN-SUFFIX,steamcontent.com,🎯 全球直连
   - DOMAIN-SUFFIX,steamusercontent.com,🎯 全球直连
-  - DOMAIN-SUFFIX,v2rayse.com,🚀 节点选择
-  - DOMAIN-SUFFIX,cff.pw,🚀 节点选择
-  - DOMAIN-SUFFIX,vpnse.org,🚀 节点选择
-  - DOMAIN-SUFFIX,cfmem.com,🚀 节点选择
   - DOMAIN-SUFFIX,t.me,🚀 节点选择
   - DOMAIN-SUFFIX,tdesktop.com,🚀 节点选择
   - DOMAIN-SUFFIX,telegra.ph,🚀 节点选择
@@ -1840,6 +1795,7 @@ rules:
   - DOMAIN-KEYWORD,claude,🚀 节点选择
   - DOMAIN-KEYWORD,openai,🚀 节点选择
   - DOMAIN,ai.google.dev,🚀 节点选择
+  - DOMAIN,aistudio.google.com,🚀 节点选择
   - DOMAIN,api.githubcopilot.com,🚀 节点选择
   - DOMAIN,api.groq.com,🚀 节点选择
   - DOMAIN,api.together.xyz,🚀 节点选择
@@ -1848,6 +1804,7 @@ rules:
   - DOMAIN,copilot-proxy.githubusercontent.com,🚀 节点选择
   - DOMAIN,gemini.google.com,🚀 节点选择
   - DOMAIN,generativelanguage.googleapis.com,🚀 节点选择
+  - DOMAIN,notebooklm.google.com,🚀 节点选择
   - DOMAIN,sydney.bing.com,🚀 节点选择
   - DOMAIN-SUFFIX,ai.azure.com,🚀 节点选择
   - DOMAIN-SUFFIX,anthropic.com,🚀 节点选择
@@ -1855,9 +1812,13 @@ rules:
   - DOMAIN-SUFFIX,bard.google.com,🚀 节点选择
   - DOMAIN-SUFFIX,chatgpt.com,🚀 节点选择
   - DOMAIN-SUFFIX,claude.ai,🚀 节点选择
+  - DOMAIN-SUFFIX,claude.com,🚀 节点选择
+  - DOMAIN-SUFFIX,claudeusercontent.com,🚀 节点选择
   - DOMAIN-SUFFIX,client-api.arkoselabs.com,🚀 节点选择
   - DOMAIN-SUFFIX,copilot.cloud.microsoft,🚀 节点选择
   - DOMAIN-SUFFIX,copilot.microsoft.com,🚀 节点选择
+  - DOMAIN-SUFFIX,cursor.com,🚀 节点选择
+  - DOMAIN-SUFFIX,cursor.sh,🚀 节点选择
   - DOMAIN-SUFFIX,events.statsigapi.net,🚀 节点选择
   - DOMAIN-SUFFIX,featuregates.org,🚀 节点选择
   - DOMAIN-SUFFIX,gemini.google.com,🚀 节点选择
@@ -1866,6 +1827,7 @@ rules:
   - DOMAIN-SUFFIX,identrust.com,🚀 节点选择
   - DOMAIN-SUFFIX,intercom.io,🚀 节点选择
   - DOMAIN-SUFFIX,intercomcdn.com,🚀 节点选择
+  - DOMAIN-SUFFIX,jetbrains.ai,🚀 节点选择
   - DOMAIN-SUFFIX,makersuite.google.com,🚀 节点选择
   - DOMAIN-SUFFIX,meta.ai,🚀 节点选择
   - DOMAIN-SUFFIX,mistral.ai,🚀 节点选择
@@ -1875,6 +1837,7 @@ rules:
   - DOMAIN-SUFFIX,openaiapi-site.azureedge.net,🚀 节点选择
   - DOMAIN-SUFFIX,perplexity.ai,🚀 节点选择
   - DOMAIN-SUFFIX,sora.com,🚀 节点选择
+  - DOMAIN-SUFFIX,x.ai,🚀 节点选择
   - DOMAIN-KEYWORD,abematv.akamaized.net,🚀 节点选择
   - DOMAIN-SUFFIX,abema.io,🚀 节点选择
   - DOMAIN-SUFFIX,abema.tv,🚀 节点选择
@@ -2437,6 +2400,7 @@ rules:
   - DOMAIN-SUFFIX,1e100.net,🚀 节点选择
   - DOMAIN-SUFFIX,2mdn.net,🚀 节点选择
   - DOMAIN-SUFFIX,app-measurement.net,🚀 节点选择
+  - DOMAIN-SUFFIX,c.gle,🚀 节点选择
   - DOMAIN-SUFFIX,g.co,🚀 节点选择
   - DOMAIN-SUFFIX,ggpht.com,🚀 节点选择
   - DOMAIN-SUFFIX,goo.gl,🚀 节点选择
@@ -2516,6 +2480,7 @@ rules:
   - DOMAIN-SUFFIX,spoprod-a.akamaihd.net,🚀 节点选择
   - DOMAIN-SUFFIX,storage.live.com,🚀 节点选择
   - DOMAIN-SUFFIX,storage.msn.com,🚀 节点选择
+  - DOMAIN-SUFFIX,microsoftpersonalcontent.com,🚀 节点选择
   - DOMAIN-KEYWORD,porn,🚀 节点选择
   - DOMAIN-SUFFIX,8teenxxx.com,🚀 节点选择
   - DOMAIN-SUFFIX,ahcdn.com,🚀 节点选择
@@ -2679,6 +2644,7 @@ rules:
   - DOMAIN-SUFFIX,aliapp.org,🎯 全球直连
   - DOMAIN-SUFFIX,alibaba.com,🎯 全球直连
   - DOMAIN-SUFFIX,alibabacloud.com,🎯 全球直连
+  - DOMAIN-SUFFIX,alibabachengdun.com,🎯 全球直连
   - DOMAIN-SUFFIX,alibabausercontent.com,🎯 全球直连
   - DOMAIN-SUFFIX,alicdn.com,🎯 全球直连
   - DOMAIN-SUFFIX,alicloudccp.com,🎯 全球直连
@@ -2697,6 +2663,7 @@ rules:
   - DOMAIN-SUFFIX,autonavi.com,🎯 全球直连
   - DOMAIN-SUFFIX,dingtalk.com,🎯 全球直连
   - DOMAIN-SUFFIX,ele.me,🎯 全球直连
+  - DOMAIN-SUFFIX,elemecdn.com,🎯 全球直连
   - DOMAIN-SUFFIX,hichina.com,🎯 全球直连
   - DOMAIN-SUFFIX,mmstat.com,🎯 全球直连
   - DOMAIN-SUFFIX,mxhichina.com,🎯 全球直连
@@ -2704,6 +2671,7 @@ rules:
   - DOMAIN-SUFFIX,taobao.com,🎯 全球直连
   - DOMAIN-SUFFIX,taobaocdn.com,🎯 全球直连
   - DOMAIN-SUFFIX,tbcache.com,🎯 全球直连
+  - DOMAIN-SUFFIX,tbcdn.cn,🎯 全球直连
   - DOMAIN-SUFFIX,tbcdn.com,🎯 全球直连
   - DOMAIN-SUFFIX,tmall.com,🎯 全球直连
   - DOMAIN-SUFFIX,tmall.hk,🎯 全球直连
@@ -2712,6 +2680,7 @@ rules:
   - DOMAIN-SUFFIX,xiami.net,🎯 全球直连
   - DOMAIN-SUFFIX,ykimg.com,🎯 全球直连
   - DOMAIN-SUFFIX,youku.com,🎯 全球直连
+  - DOMAIN-SUFFIX,qwen.ai,🎯 全球直连
   - DOMAIN-SUFFIX,baidu.com,🎯 全球直连
   - DOMAIN-SUFFIX,baidubcr.com,🎯 全球直连
   - DOMAIN-SUFFIX,baidupcs.com,🎯 全球直连
@@ -3032,6 +3001,7 @@ rules:
   - DOMAIN-SUFFIX,air-matters.io,🎯 全球直连
   - DOMAIN-SUFFIX,aixifan.com,🎯 全球直连
   - DOMAIN-SUFFIX,algocasts.io,🎯 全球直连
+  - DOMAIN-SUFFIX,asklink.com,🎯 全球直连
   - DOMAIN-SUFFIX,babytree.com,🎯 全球直连
   - DOMAIN-SUFFIX,babytreeimg.com,🎯 全球直连
   - DOMAIN-SUFFIX,baicizhan.com,🎯 全球直连
