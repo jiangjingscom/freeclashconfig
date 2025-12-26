@@ -16,81 +16,42 @@ log-level: info
 external-controller: ':9090'
 
 proxies:
-  - {"name":"节点日期：12-25\r","type":"vless","server":"www.aapanel.com","port":2053,"uuid":"6949ea89-4825-1b47-3b03-113cede87254","tls":true,"servername":"stall.saass.ccwu.cc","network":"ws","ws-opts":{"path":"/proxyip=sjc.o00o.ooo"}}
-  - {"name":"【机场推荐：https://a0a.xyz/】2\r","type":"vless","server":"port.api-music-fa.com","port":2053,"uuid":"d9ec6fd2-4de0-4109-acfa-1f54278988ce","tls":true,"servername":"port.api-music-fa.com","network":"ws","ws-opts":{"path":"/J5aLQOY1R9ONWYCM"}}
-  - {"name":"【机场推荐：https://a0a.xyz/】3\r","type":"ss","server":"77.110.99.118","port":56949,"password":"6NKlSzWD8jDh44G7StAsRA","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"【机场推荐：https://a0a.xyz/】4\r","type":"ss","server":"95.164.116.33","port":443,"password":"pQmnC03JObbPhdh5FBJHgD6jnTLchsRA","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"【机场推荐：https://a0a.xyz/】5\r","type":"vless","server":"shops.myshopify.com","port":443,"uuid":"6949ea89-4825-1b47-3b03-113cede87254","tls":true,"servername":"stall.saass.ccwu.cc","network":"ws","ws-opts":{"path":"/proxyip=sjc.o00o.ooo"}}
-  - {"name":"【机场推荐：https://a0a.xyz/】6\r","type":"vless","server":"notability.com","port":2053,"uuid":"6949ea89-4825-1b47-3b03-113cede87254","tls":true,"servername":"stall.saass.ccwu.cc","network":"ws","ws-opts":{"path":"/proxyip=sjc.o00o.ooo"}}
-  - {"name":"【机场推荐：https://a0a.xyz/】7\r","type":"vless","server":"cfxr.eu.org","port":2053,"uuid":"6949ea89-4825-1b47-3b03-113cede87254","tls":true,"servername":"stall.saass.ccwu.cc","network":"ws","ws-opts":{"path":"/proxyip=sjc.o00o.ooo"}}
-  - {"name":"【机场推荐：https://a0a.xyz/】8","type":"vmess","server":"ssssssssssssfffffffgh.2032.pp.ua","port":443,"cipher":"auto","uuid":"4174b95d-115e-4d39-add6-1f8db95bb860","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/6We3U9Df1WGxgFnoFPw1","headers":{"host":"ssssssssssssfffffffgh.2032.pp.ua"}}}
-  - {"name":"【机场推荐：https://a0a.xyz/】9\r","type":"vless","server":"china.embassy.gov.au","port":2053,"uuid":"6949ea89-4825-1b47-3b03-113cede87254","tls":true,"servername":"stall.saass.ccwu.cc","network":"ws","ws-opts":{"path":"/proxyip=sjc.o00o.ooo"}}
-  - {"name":"【机场推荐：https://a0a.xyz/】10","type":"vmess","server":"sssssssxxxx.2032.pp.ua","port":443,"cipher":"auto","uuid":"4174b95d-115e-4d39-add6-1f8db95bb860","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/6We3U9Df1WGxgFnoFPw1","headers":{"host":"sssssssxxxx.2032.pp.ua"}}}
-  - {"name":"【机场推荐：https://a0a.xyz/】11","type":"vmess","server":"8.217.90.175","port":51000,"cipher":"auto","uuid":"6c82a994-b6ba-48ca-f2ed-11288fe4913b","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"【机场推荐：https://a0a.xyz/】12\r","type":"ss","server":"89.221.225.15","port":443,"password":"yCbQ4bry4otfifK7oel71NaXpPL9pYJb","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"【机场推荐：https://a0a.xyz/】13\r","type":"ss","server":"178.173.250.47","port":56033,"password":"5LD874oS39jQ26cT97NaAo","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"【机场推荐：https://a0a.xyz/】14","type":"vmess","server":"v12.hdacd.com","port":30812,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"【机场推荐：https://a0a.xyz/】15\r","type":"ss","server":"193.203.203.66","port":443,"password":"S6jUK9Fw5fMHgNqlqXObHZWv8Tf4nEkm","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"【机场推荐：https://a0a.xyz/】16\r","type":"ss","server":"82.38.31.208","port":8080,"password":"k1dBOmOB4oqi7Ump37a1bQ","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"【机场推荐：https://a0a.xyz/】17\r","type":"trojan","server":"112.118.116.8","port":443,"udp":true,"password":"44e660b0ee21cf3ac66aee2c08af85d2","sni":"www.nintendogames.net","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"【机场推荐：https://a0a.xyz/】18\r","type":"vless","server":"legion.lenovo.com","port":2053,"uuid":"6949ea89-4825-1b47-3b03-113cede87254","tls":true,"servername":"stall.saass.ccwu.cc","network":"ws","ws-opts":{"path":"/proxyip=sjc.o00o.ooo"}}
-  - {"name":"【机场推荐：https://a0a.xyz/】19","type":"vmess","server":"82.198.246.97","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"【机场推荐：https://a0a.xyz/】20\r","type":"vless","server":"oralb.com","port":2053,"uuid":"6949ea89-4825-1b47-3b03-113cede87254","tls":true,"servername":"stall.saass.ccwu.cc","network":"ws","ws-opts":{"path":"/proxyip=sjc.o00o.ooo"}}
-  - {"name":"【机场推荐：https://a0a.xyz/】21\r","type":"vless","server":"zoom.seaseus.pp.ua","port":443,"uuid":"fba4e0e0-118c-431f-9f6a-4cfc99f39de8","tls":true,"servername":"zoom.seaseus.pp.ua","network":"ws","ws-opts":{"path":"/seaseus"}}
+  - {"name":"节点日期：12-26\r","type":"ss","server":"45.82.252.109","port":990,"password":"ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"【机场推荐：https://a0a.xyz/】2\r","type":"vless","server":"purplelily.qzz.io","port":443,"uuid":"9ac02124-e3f2-4a80-8ac8-d06612ebaceb","tls":true,"servername":"purplelily.qzz.io","network":"ws","ws-opts":{"path":"/57.128.183.35:443"}}
+  - {"name":"【机场推荐：https://a0a.xyz/】3\r","type":"ss","server":"95.164.116.33","port":443,"password":"pQmnC03JObbPhdh5FBJHgD6jnTLchsRA","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"【机场推荐：https://a0a.xyz/】4\r","type":"vless","server":"de-1.fooms.cc","port":443,"uuid":"3005c397-1c4c-4bbe-b209-ea3fe93bb992","tls":true,"servername":"de-1.fooms.cc","network":"ws","ws-opts":{"path":"/Path2WS"}}
+  - {"name":"【机场推荐：https://a0a.xyz/】5\r","type":"trojan","server":"112.118.116.8","port":443,"udp":true,"password":"44e660b0ee21cf3ac66aee2c08af85d2","sni":"www.nintendogames.net","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"【机场推荐：https://a0a.xyz/】6\r","type":"vless","server":"ns.cloudnsmkh.ir","port":443,"uuid":"08b6328c-4fdc-4262-b908-f0ad389e9911","tls":true,"servername":"ns1.ezcloudnet.ir","network":"ws","ws-opts":{"path":"/news"}}
+  - {"name":"【机场推荐：https://a0a.xyz/】7","type":"vmess","server":"82.198.246.97","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"【机场推荐：https://a0a.xyz/】8\r","type":"ss","server":"217.60.63.96","port":443,"password":"Mb7c1yskGeWF3qsl2Z3Zth","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - "节点日期：12-25\r"
+      - "节点日期：12-26\r"
       - "【机场推荐：https://a0a.xyz/】2\r"
       - "【机场推荐：https://a0a.xyz/】3\r"
       - "【机场推荐：https://a0a.xyz/】4\r"
       - "【机场推荐：https://a0a.xyz/】5\r"
       - "【机场推荐：https://a0a.xyz/】6\r"
-      - "【机场推荐：https://a0a.xyz/】7\r"
-      - 【机场推荐：https://a0a.xyz/】8
-      - "【机场推荐：https://a0a.xyz/】9\r"
-      - 【机场推荐：https://a0a.xyz/】10
-      - 【机场推荐：https://a0a.xyz/】11
-      - "【机场推荐：https://a0a.xyz/】12\r"
-      - "【机场推荐：https://a0a.xyz/】13\r"
-      - 【机场推荐：https://a0a.xyz/】14
-      - "【机场推荐：https://a0a.xyz/】15\r"
-      - "【机场推荐：https://a0a.xyz/】16\r"
-      - "【机场推荐：https://a0a.xyz/】17\r"
-      - "【机场推荐：https://a0a.xyz/】18\r"
-      - 【机场推荐：https://a0a.xyz/】19
-      - "【机场推荐：https://a0a.xyz/】20\r"
-      - "【机场推荐：https://a0a.xyz/】21\r"
+      - 【机场推荐：https://a0a.xyz/】7
+      - "【机场推荐：https://a0a.xyz/】8\r"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - "节点日期：12-25\r"
+      - "节点日期：12-26\r"
       - "【机场推荐：https://a0a.xyz/】2\r"
       - "【机场推荐：https://a0a.xyz/】3\r"
       - "【机场推荐：https://a0a.xyz/】4\r"
       - "【机场推荐：https://a0a.xyz/】5\r"
       - "【机场推荐：https://a0a.xyz/】6\r"
-      - "【机场推荐：https://a0a.xyz/】7\r"
-      - 【机场推荐：https://a0a.xyz/】8
-      - "【机场推荐：https://a0a.xyz/】9\r"
-      - 【机场推荐：https://a0a.xyz/】10
-      - 【机场推荐：https://a0a.xyz/】11
-      - "【机场推荐：https://a0a.xyz/】12\r"
-      - "【机场推荐：https://a0a.xyz/】13\r"
-      - 【机场推荐：https://a0a.xyz/】14
-      - "【机场推荐：https://a0a.xyz/】15\r"
-      - "【机场推荐：https://a0a.xyz/】16\r"
-      - "【机场推荐：https://a0a.xyz/】17\r"
-      - "【机场推荐：https://a0a.xyz/】18\r"
-      - 【机场推荐：https://a0a.xyz/】19
-      - "【机场推荐：https://a0a.xyz/】20\r"
-      - "【机场推荐：https://a0a.xyz/】21\r"
+      - 【机场推荐：https://a0a.xyz/】7
+      - "【机场推荐：https://a0a.xyz/】8\r"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -108,27 +69,14 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "节点日期：12-25\r"
+      - "节点日期：12-26\r"
       - "【机场推荐：https://a0a.xyz/】2\r"
       - "【机场推荐：https://a0a.xyz/】3\r"
       - "【机场推荐：https://a0a.xyz/】4\r"
       - "【机场推荐：https://a0a.xyz/】5\r"
       - "【机场推荐：https://a0a.xyz/】6\r"
-      - "【机场推荐：https://a0a.xyz/】7\r"
-      - 【机场推荐：https://a0a.xyz/】8
-      - "【机场推荐：https://a0a.xyz/】9\r"
-      - 【机场推荐：https://a0a.xyz/】10
-      - 【机场推荐：https://a0a.xyz/】11
-      - "【机场推荐：https://a0a.xyz/】12\r"
-      - "【机场推荐：https://a0a.xyz/】13\r"
-      - 【机场推荐：https://a0a.xyz/】14
-      - "【机场推荐：https://a0a.xyz/】15\r"
-      - "【机场推荐：https://a0a.xyz/】16\r"
-      - "【机场推荐：https://a0a.xyz/】17\r"
-      - "【机场推荐：https://a0a.xyz/】18\r"
-      - 【机场推荐：https://a0a.xyz/】19
-      - "【机场推荐：https://a0a.xyz/】20\r"
-      - "【机场推荐：https://a0a.xyz/】21\r"
+      - 【机场推荐：https://a0a.xyz/】7
+      - "【机场推荐：https://a0a.xyz/】8\r"
 
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
